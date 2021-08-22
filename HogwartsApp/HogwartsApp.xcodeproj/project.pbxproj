@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4DED76F26D3088E004468F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED76E26D3088E004468F1 /* AppDelegate.swift */; };
+		B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED77026D3088E004468F1 /* SceneDelegate.swift */; };
+		B4DED77326D3088E004468F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED77226D3088E004468F1 /* MainViewController.swift */; };
+		B4DED77626D3088E004468F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DED77426D3088E004468F1 /* Main.storyboard */; };
+		B4DED77826D30891004468F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DED77726D30891004468F1 /* Assets.xcassets */; };
+		B4DED77B26D30891004468F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DED77926D30891004468F1 /* LaunchScreen.storyboard */; };
+		B4DED78626D30892004468F1 /* HogwartsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED78526D30892004468F1 /* HogwartsAppTests.swift */; };
+		B4DED79126D30892004468F1 /* HogwartsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED79026D30892004468F1 /* HogwartsAppUITests.swift */; };
+		B4DED7A326D31026004468F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED7A226D31026004468F1 /* LoginViewController.swift */; };
+		B4DED7A526D3103B004468F1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED7A426D3103B004468F1 /* SignInViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4DED78226D30892004468F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4DED76326D3088D004468F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4DED76A26D3088E004468F1;
+			remoteInfo = HogwartsApp;
+		};
+		B4DED78D26D30892004468F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4DED76326D3088D004468F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4DED76A26D3088E004468F1;
+			remoteInfo = HogwartsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4DED76B26D3088E004468F1 /* HogwartsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogwartsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DED76E26D3088E004468F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4DED77026D3088E004468F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4DED77226D3088E004468F1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B4DED77526D3088E004468F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4DED77726D30891004468F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4DED77A26D30891004468F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4DED77C26D30891004468F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DED78126D30892004468F1 /* HogwartsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HogwartsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DED78526D30892004468F1 /* HogwartsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogwartsAppTests.swift; sourceTree = "<group>"; };
+		B4DED78726D30892004468F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DED78C26D30892004468F1 /* HogwartsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HogwartsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DED79026D30892004468F1 /* HogwartsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogwartsAppUITests.swift; sourceTree = "<group>"; };
+		B4DED79226D30892004468F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DED7A226D31026004468F1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B4DED7A426D3103B004468F1 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4DED76826D3088E004468F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DED77E26D30892004468F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DED78926D30892004468F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4DED76226D3088D004468F1 = {
+			isa = PBXGroup;
+			children = (
+				B4DED76D26D3088E004468F1 /* HogwartsApp */,
+				B4DED78426D30892004468F1 /* HogwartsAppTests */,
+				B4DED78F26D30892004468F1 /* HogwartsAppUITests */,
+				B4DED76C26D3088E004468F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4DED76C26D3088E004468F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4DED76B26D3088E004468F1 /* HogwartsApp.app */,
+				B4DED78126D30892004468F1 /* HogwartsAppTests.xctest */,
+				B4DED78C26D30892004468F1 /* HogwartsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4DED76D26D3088E004468F1 /* HogwartsApp */ = {
+			isa = PBXGroup;
+			children = (
+				B4DED7A026D308E3004468F1 /* Model */,
+				B4DED79F26D308DB004468F1 /* View */,
+				B4DED79E26D308D2004468F1 /* Controller */,
+				B4DED76E26D3088E004468F1 /* AppDelegate.swift */,
+				B4DED77026D3088E004468F1 /* SceneDelegate.swift */,
+				B4DED77726D30891004468F1 /* Assets.xcassets */,
+				B4DED77926D30891004468F1 /* LaunchScreen.storyboard */,
+				B4DED77C26D30891004468F1 /* Info.plist */,
+			);
+			path = HogwartsApp;
+			sourceTree = "<group>";
+		};
+		B4DED78426D30892004468F1 /* HogwartsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4DED78526D30892004468F1 /* HogwartsAppTests.swift */,
+				B4DED78726D30892004468F1 /* Info.plist */,
+			);
+			path = HogwartsAppTests;
+			sourceTree = "<group>";
+		};
+		B4DED78F26D30892004468F1 /* HogwartsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4DED79026D30892004468F1 /* HogwartsAppUITests.swift */,
+				B4DED79226D30892004468F1 /* Info.plist */,
+			);
+			path = HogwartsAppUITests;
+			sourceTree = "<group>";
+		};
+		B4DED79E26D308D2004468F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B4DED79F26D308DB004468F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4DED77226D3088E004468F1 /* MainViewController.swift */,
+				B4DED7A126D308EB004468F1 /* Storyboards */,
+				B4DED7A226D31026004468F1 /* LoginViewController.swift */,
+				B4DED7A426D3103B004468F1 /* SignInViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4DED7A026D308E3004468F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4DED7A126D308EB004468F1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B4DED77426D3088E004468F1 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4DED76A26D3088E004468F1 /* HogwartsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DED79526D30892004468F1 /* Build configuration list for PBXNativeTarget "HogwartsApp" */;
+			buildPhases = (
+				B4DED76726D3088E004468F1 /* Sources */,
+				B4DED76826D3088E004468F1 /* Frameworks */,
+				B4DED76926D3088E004468F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HogwartsApp;
+			productName = HogwartsApp;
+			productReference = B4DED76B26D3088E004468F1 /* HogwartsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4DED78026D30892004468F1 /* HogwartsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DED79826D30892004468F1 /* Build configuration list for PBXNativeTarget "HogwartsAppTests" */;
+			buildPhases = (
+				B4DED77D26D30892004468F1 /* Sources */,
+				B4DED77E26D30892004468F1 /* Frameworks */,
+				B4DED77F26D30892004468F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4DED78326D30892004468F1 /* PBXTargetDependency */,
+			);
+			name = HogwartsAppTests;
+			productName = HogwartsAppTests;
+			productReference = B4DED78126D30892004468F1 /* HogwartsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4DED78B26D30892004468F1 /* HogwartsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DED79B26D30892004468F1 /* Build configuration list for PBXNativeTarget "HogwartsAppUITests" */;
+			buildPhases = (
+				B4DED78826D30892004468F1 /* Sources */,
+				B4DED78926D30892004468F1 /* Frameworks */,
+				B4DED78A26D30892004468F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4DED78E26D30892004468F1 /* PBXTargetDependency */,
+			);
+			name = HogwartsAppUITests;
+			productName = HogwartsAppUITests;
+			productReference = B4DED78C26D30892004468F1 /* HogwartsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4DED76326D3088D004468F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B4DED76A26D3088E004468F1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B4DED78026D30892004468F1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B4DED76A26D3088E004468F1;
+					};
+					B4DED78B26D30892004468F1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B4DED76A26D3088E004468F1;
+					};
+				};
+			};
+			buildConfigurationList = B4DED76626D3088D004468F1 /* Build configuration list for PBXProject "HogwartsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4DED76226D3088D004468F1;
+			productRefGroup = B4DED76C26D3088E004468F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4DED76A26D3088E004468F1 /* HogwartsApp */,
+				B4DED78026D30892004468F1 /* HogwartsAppTests */,
+				B4DED78B26D30892004468F1 /* HogwartsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4DED76926D3088E004468F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DED77B26D30891004468F1 /* LaunchScreen.storyboard in Resources */,
+				B4DED77826D30891004468F1 /* Assets.xcassets in Resources */,
+				B4DED77626D3088E004468F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DED77F26D30892004468F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DED78A26D30892004468F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4DED76726D3088E004468F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DED7A326D31026004468F1 /* LoginViewController.swift in Sources */,
+				B4DED77326D3088E004468F1 /* MainViewController.swift in Sources */,
+				B4DED76F26D3088E004468F1 /* AppDelegate.swift in Sources */,
+				B4DED7A526D3103B004468F1 /* SignInViewController.swift in Sources */,
+				B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DED77D26D30892004468F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DED78626D30892004468F1 /* HogwartsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DED78826D30892004468F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DED79126D30892004468F1 /* HogwartsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4DED78326D30892004468F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4DED76A26D3088E004468F1 /* HogwartsApp */;
+			targetProxy = B4DED78226D30892004468F1 /* PBXContainerItemProxy */;
+		};
+		B4DED78E26D30892004468F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4DED76A26D3088E004468F1 /* HogwartsApp */;
+			targetProxy = B4DED78D26D30892004468F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4DED77426D3088E004468F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4DED77526D3088E004468F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4DED77926D30891004468F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4DED77A26D30891004468F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4DED79326D30892004468F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4DED79426D30892004468F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4DED79626D30892004468F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HogwartsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DigitalHouse.HogwartsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B4DED79726D30892004468F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HogwartsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DigitalHouse.HogwartsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B4DED79926D30892004468F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HogwartsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DigitalHouse.HogwartsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HogwartsApp.app/HogwartsApp";
+			};
+			name = Debug;
+		};
+		B4DED79A26D30892004468F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HogwartsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DigitalHouse.HogwartsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HogwartsApp.app/HogwartsApp";
+			};
+			name = Release;
+		};
+		B4DED79C26D30892004468F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HogwartsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DigitalHouse.HogwartsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HogwartsApp;
+			};
+			name = Debug;
+		};
+		B4DED79D26D30892004468F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HogwartsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DigitalHouse.HogwartsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HogwartsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4DED76626D3088D004468F1 /* Build configuration list for PBXProject "HogwartsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DED79326D30892004468F1 /* Debug */,
+				B4DED79426D30892004468F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DED79526D30892004468F1 /* Build configuration list for PBXNativeTarget "HogwartsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DED79626D30892004468F1 /* Debug */,
+				B4DED79726D30892004468F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DED79826D30892004468F1 /* Build configuration list for PBXNativeTarget "HogwartsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DED79926D30892004468F1 /* Debug */,
+				B4DED79A26D30892004468F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DED79B26D30892004468F1 /* Build configuration list for PBXNativeTarget "HogwartsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4DED79C26D30892004468F1 /* Debug */,
+				B4DED79D26D30892004468F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4DED76326D3088D004468F1 /* Project object */;
+}
