@@ -9,21 +9,31 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var mainView: UIView!
+    @IBOutlet weak var logoImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var bdayLabel: UILabel!
+    @IBOutlet weak var bdayTextField: UITextField!
+    @IBOutlet weak var genderLabel: UILabel!
+    @IBOutlet weak var genderTextField: UITextField!
+    @IBOutlet weak var townLabel: UILabel!
+    @IBOutlet weak var townTextField: UITextField!
+    @IBOutlet weak var stateLabel: UILabel!
+    @IBOutlet weak var stateTextField: UITextField!
+    @IBOutlet weak var countryLabel: UILabel!
+    @IBOutlet weak var countryTextField: UITextField!
+    @IBOutlet weak var sigInButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func tappedSignInButton(_ sender: UIButton) {
+        
     }
-    */
-
+    
 }

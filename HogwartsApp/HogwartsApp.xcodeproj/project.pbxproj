@@ -80,6 +80,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B48C856626D31E0800F5A9E2 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		B4DED76226D3088D004468F1 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +110,7 @@
 		B4DED76D26D3088E004468F1 /* HogwartsApp */ = {
 			isa = PBXGroup;
 			children = (
+				B48C856626D31E0800F5A9E2 /* Mock */,
 				B4DED7A026D308E3004468F1 /* Model */,
 				B4DED79F26D308DB004468F1 /* View */,
 				B4DED79E26D308D2004468F1 /* Controller */,
@@ -144,9 +152,9 @@
 			isa = PBXGroup;
 			children = (
 				B4DED77226D3088E004468F1 /* MainViewController.swift */,
-				B4DED7A126D308EB004468F1 /* Storyboards */,
 				B4DED7A226D31026004468F1 /* LoginViewController.swift */,
 				B4DED7A426D3103B004468F1 /* SignInViewController.swift */,
+				B4DED7A126D308EB004468F1 /* Storyboards */,
 			);
 			path = View;
 			sourceTree = "<group>";
