@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65B4BB7126D6F4FA00F7B55C /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4BB7026D6F4FA00F7B55C /* json.swift */; };
+		65B4BB7326D6F52F00F7B55C /* classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4BB7226D6F52F00F7B55C /* classe.swift */; };
+		65B4BB7526D6F58400F7B55C /* classeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4BB7426D6F58400F7B55C /* classeControl.swift */; };
 		B4DED76F26D3088E004468F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED76E26D3088E004468F1 /* AppDelegate.swift */; };
 		B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED77026D3088E004468F1 /* SceneDelegate.swift */; };
 		B4DED77326D3088E004468F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED77226D3088E004468F1 /* MainViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65B4BB7026D6F4FA00F7B55C /* json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
+		65B4BB7226D6F52F00F7B55C /* classe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = classe.swift; path = HogwartsApp/Mock/classe.swift; sourceTree = SOURCE_ROOT; };
+		65B4BB7426D6F58400F7B55C /* classeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = classeControl.swift; path = HogwartsApp/View/classeControl.swift; sourceTree = SOURCE_ROOT; };
 		B4DED76B26D3088E004468F1 /* HogwartsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogwartsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DED76E26D3088E004468F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DED77026D3088E004468F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +89,7 @@
 		B48C856626D31E0800F5A9E2 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
+				65B4BB7026D6F4FA00F7B55C /* json.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -151,6 +158,7 @@
 		B4DED79F26D308DB004468F1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				65B4BB7426D6F58400F7B55C /* classeControl.swift */,
 				B4DED77226D3088E004468F1 /* MainViewController.swift */,
 				B4DED7A226D31026004468F1 /* LoginViewController.swift */,
 				B4DED7A426D3103B004468F1 /* SignInViewController.swift */,
@@ -162,6 +170,7 @@
 		B4DED7A026D308E3004468F1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				65B4BB7226D6F52F00F7B55C /* classe.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -306,9 +315,12 @@
 			files = (
 				B4DED7A326D31026004468F1 /* LoginViewController.swift in Sources */,
 				B4DED77326D3088E004468F1 /* MainViewController.swift in Sources */,
+				65B4BB7526D6F58400F7B55C /* classeControl.swift in Sources */,
 				B4DED76F26D3088E004468F1 /* AppDelegate.swift in Sources */,
 				B4DED7A526D3103B004468F1 /* SignInViewController.swift in Sources */,
 				B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */,
+				65B4BB7326D6F52F00F7B55C /* classe.swift in Sources */,
+				65B4BB7126D6F4FA00F7B55C /* json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
