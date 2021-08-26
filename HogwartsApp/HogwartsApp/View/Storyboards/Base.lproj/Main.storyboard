@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FOk-fB-aib">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,11 +12,11 @@
             <objects>
                 <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="MainViewController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7OC-9u-1xF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="w7T-Tq-XuM">
                                         <rect key="frame" x="20" y="50" width="335" height="311"/>
@@ -26,7 +26,7 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Njz-3y-vW7">
-                                        <rect key="frame" x="22" y="421" width="333" height="48"/>
+                                        <rect key="frame" x="22" y="421" width="372" height="48"/>
                                         <color key="backgroundColor" red="0.6625953913" green="0.50837218760000003" blue="0.24552798270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="h5S-Iy-rtG"/>
@@ -41,7 +41,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GA0-d7-3Er">
-                                        <rect key="frame" x="20" y="474" width="335" height="33"/>
+                                        <rect key="frame" x="20" y="474" width="374" height="184"/>
                                         <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="16"/>
                                         <state key="normal" title="Não tem conta? Cadastre-se aqui">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -92,7 +92,7 @@
             <objects>
                 <viewController id="XA3-Hj-uZv" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fhi-pw-ZAH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="VAi-N0-I7Q"/>
                         <color key="backgroundColor" red="0.073130656759999996" green="0.073130656759999996" blue="0.073130656759999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -107,7 +107,7 @@
             <objects>
                 <viewController id="MGX-aK-R8V" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Woa-hg-6RE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="4cW-4w-cWe"/>
                         <color key="backgroundColor" red="0.073130656759999996" green="0.073130656759999996" blue="0.073130656759999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -117,8 +117,89 @@
             </objects>
             <point key="canvasLocation" x="922" y="-363"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="trw-0o-BnE">
+            <objects>
+                <viewController id="FOk-fB-aib" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6pT-3o-8wM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image.harry3" translatesAutoresizingMaskIntoConstraints="NO" id="bkX-e9-fNy">
+                                <rect key="frame" x="20" y="159" width="374" height="202"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="202" id="LIb-fd-IZo"/>
+                                    <constraint firstAttribute="width" constant="374" id="pae-Ca-9RQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="9hX-tk-ruv">
+                                <rect key="frame" x="130" y="44" width="154" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="154" id="WeO-Id-h70"/>
+                                    <constraint firstAttribute="height" constant="107" id="qy7-cX-srh"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="5Ol-bA-dFI">
+                                <rect key="frame" x="20" y="390" width="374" height="367"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vs-Rz-OIh">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="64"/>
+                                        <color key="backgroundColor" red="0.77002948520000003" green="0.67786729339999996" blue="0.43421685700000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="32"/>
+                                        <state key="normal" title="Personagens">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42Q-re-OGa">
+                                        <rect key="frame" x="0.0" y="101" width="374" height="64"/>
+                                        <color key="backgroundColor" red="0.77002948520000003" green="0.67786729339999996" blue="0.43421685700000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="32"/>
+                                        <state key="normal" title="Bestiario">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AO6-ot-1bI">
+                                        <rect key="frame" x="0.0" y="202" width="374" height="64"/>
+                                        <color key="backgroundColor" red="0.77002948520000003" green="0.67786729339999996" blue="0.43421685700000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="32"/>
+                                        <state key="normal" title="Chapeu Seletor">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-ga-Q12">
+                                        <rect key="frame" x="0.0" y="303" width="374" height="64"/>
+                                        <color key="backgroundColor" red="0.77002948520000003" green="0.67786729339999996" blue="0.43421685700000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="32"/>
+                                        <state key="normal" title="Quiz">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rno-qL-kTH"/>
+                        <color key="backgroundColor" red="0.074499122799999998" green="0.074516661469999995" blue="0.074495263399999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rno-qL-kTH" firstAttribute="trailing" secondItem="9hX-tk-ruv" secondAttribute="trailing" constant="130" id="6yf-JM-O7R"/>
+                            <constraint firstItem="rno-qL-kTH" firstAttribute="trailing" secondItem="bkX-e9-fNy" secondAttribute="trailing" constant="20" id="CP4-aM-X8T"/>
+                            <constraint firstItem="5Ol-bA-dFI" firstAttribute="leading" secondItem="rno-qL-kTH" secondAttribute="leading" constant="20" id="LEM-ma-eWg"/>
+                            <constraint firstItem="5Ol-bA-dFI" firstAttribute="top" secondItem="bkX-e9-fNy" secondAttribute="bottom" constant="29" id="OqN-qV-f7q"/>
+                            <constraint firstItem="9hX-tk-ruv" firstAttribute="top" secondItem="rno-qL-kTH" secondAttribute="top" id="PHh-kn-FaG"/>
+                            <constraint firstItem="5Ol-bA-dFI" firstAttribute="centerX" secondItem="6pT-3o-8wM" secondAttribute="centerX" id="YiO-gx-KBd"/>
+                            <constraint firstItem="rno-qL-kTH" firstAttribute="trailing" secondItem="5Ol-bA-dFI" secondAttribute="trailing" constant="20" id="gSr-T5-iKh"/>
+                            <constraint firstItem="9hX-tk-ruv" firstAttribute="leading" secondItem="rno-qL-kTH" secondAttribute="leading" constant="130" id="mgU-cu-cVf"/>
+                            <constraint firstItem="bkX-e9-fNy" firstAttribute="leading" secondItem="rno-qL-kTH" secondAttribute="leading" constant="20" id="rtV-cc-saX"/>
+                            <constraint firstItem="bkX-e9-fNy" firstAttribute="top" secondItem="9hX-tk-ruv" secondAttribute="bottom" constant="8" symbolic="YES" id="thj-ov-tUo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vWA-zg-e3b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1808.6956521739132" y="-48.214285714285715"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="image.harry3" width="1280" height="512"/>
         <image name="logo" width="360" height="329"/>
     </resources>
 </document>

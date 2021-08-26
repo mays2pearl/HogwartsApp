@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65BECE2126D7386C00E86DF7 /* Personagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 65BECE2026D7386C00E86DF7 /* Personagens.json */; };
 		B4DED76F26D3088E004468F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED76E26D3088E004468F1 /* AppDelegate.swift */; };
 		B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED77026D3088E004468F1 /* SceneDelegate.swift */; };
 		B4DED77326D3088E004468F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED77226D3088E004468F1 /* MainViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65BECE2026D7386C00E86DF7 /* Personagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Personagens.json; sourceTree = "<group>"; };
 		B4DED76B26D3088E004468F1 /* HogwartsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogwartsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DED76E26D3088E004468F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DED77026D3088E004468F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,9 +82,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65BECE1F26D7376300E86DF7 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				65BECE2026D7386C00E86DF7 /* Personagens.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		B4DED76226D3088D004468F1 = {
 			isa = PBXGroup;
 			children = (
+				65BECE1F26D7376300E86DF7 /* Mock */,
 				B4DED76D26D3088E004468F1 /* HogwartsApp */,
 				B4DED78426D30892004468F1 /* HogwartsAppTests */,
 				B4DED78F26D30892004468F1 /* HogwartsAppUITests */,
@@ -270,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4DED77B26D30891004468F1 /* LaunchScreen.storyboard in Resources */,
+				65BECE2126D7386C00E86DF7 /* Personagens.json in Resources */,
 				B4DED77826D30891004468F1 /* Assets.xcassets in Resources */,
 				B4DED77626D3088E004468F1 /* Main.storyboard in Resources */,
 			);
