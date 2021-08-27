@@ -34,6 +34,7 @@ class SignInViewController: UIViewController {
     
     @IBAction func tappedSignInButton(_ sender: UIButton) {
         
+        performSegue(withIdentifier: "HomeController", sender: "HomeController")
     }
     
 }
