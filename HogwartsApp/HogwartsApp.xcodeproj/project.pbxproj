@@ -9,8 +9,12 @@
 /* Begin PBXBuildFile section */
 		65509A0E26D87B9C0039C1CB /* Personagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 65509A0D26D87B9B0039C1CB /* Personagens.json */; };
 		65509A1226D8A0CC0039C1CB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65509A1126D8A0CB0039C1CB /* HomeController.swift */; };
-		65B4BB7326D6F52F00F7B55C /* classe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4BB7226D6F52F00F7B55C /* classe.swift */; };
+		6578B83926DC369A000A1F23 /* Main.Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6578B83826DC369A000A1F23 /* Main.Storyboard2.storyboard */; };
+		6578B83C26DC4230000A1F23 /* PersonagensCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578B83A26DC4230000A1F23 /* PersonagensCell.swift */; };
+		6578B83D26DC4230000A1F23 /* PersonagensCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6578B83B26DC4230000A1F23 /* PersonagensCell.xib */; };
 		65B4BB7526D6F58400F7B55C /* classeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B4BB7426D6F58400F7B55C /* classeControl.swift */; };
+		65BB589626DC4A8A00295754 /* PersonagensController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB589526DC4A8A00295754 /* PersonagensController.swift */; };
+		65BB589826DC4E4100295754 /* DetailsPersonagensController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB589726DC4E4100295754 /* DetailsPersonagensController.swift */; };
 		B4DED76F26D3088E004468F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED76E26D3088E004468F1 /* AppDelegate.swift */; };
 		B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED77026D3088E004468F1 /* SceneDelegate.swift */; };
 		B4DED77326D3088E004468F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED77226D3088E004468F1 /* MainViewController.swift */; };
@@ -43,8 +47,12 @@
 /* Begin PBXFileReference section */
 		65509A0D26D87B9B0039C1CB /* Personagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Personagens.json; path = ../../../../../../appHarryPotter/appHarryPotter/Mock/Personagens.json; sourceTree = "<group>"; };
 		65509A1126D8A0CB0039C1CB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
-		65B4BB7226D6F52F00F7B55C /* classe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = classe.swift; path = HogwartsApp/Mock/classe.swift; sourceTree = SOURCE_ROOT; };
+		6578B83826DC369A000A1F23 /* Main.Storyboard2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.Storyboard2.storyboard; sourceTree = "<group>"; };
+		6578B83A26DC4230000A1F23 /* PersonagensCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonagensCell.swift; sourceTree = "<group>"; };
+		6578B83B26DC4230000A1F23 /* PersonagensCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonagensCell.xib; sourceTree = "<group>"; };
 		65B4BB7426D6F58400F7B55C /* classeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = classeControl.swift; path = HogwartsApp/Controller/classeControl.swift; sourceTree = SOURCE_ROOT; };
+		65BB589526DC4A8A00295754 /* PersonagensController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonagensController.swift; sourceTree = "<group>"; };
+		65BB589726DC4E4100295754 /* DetailsPersonagensController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPersonagensController.swift; sourceTree = "<group>"; };
 		B4DED76B26D3088E004468F1 /* HogwartsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogwartsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DED76E26D3088E004468F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DED77026D3088E004468F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -161,11 +169,13 @@
 		B4DED79F26D308DB004468F1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				65BB589526DC4A8A00295754 /* PersonagensController.swift */,
 				B4DED77226D3088E004468F1 /* MainViewController.swift */,
 				B4DED7A226D31026004468F1 /* LoginViewController.swift */,
 				B4DED7A426D3103B004468F1 /* SignInViewController.swift */,
 				65509A1126D8A0CB0039C1CB /* HomeController.swift */,
 				B4DED7A126D308EB004468F1 /* Storyboards */,
+				65BB589726DC4E4100295754 /* DetailsPersonagensController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,7 +183,8 @@
 		B4DED7A026D308E3004468F1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				65B4BB7226D6F52F00F7B55C /* classe.swift */,
+				6578B83A26DC4230000A1F23 /* PersonagensCell.swift */,
+				6578B83B26DC4230000A1F23 /* PersonagensCell.xib */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				B4DED77426D3088E004468F1 /* Main.storyboard */,
+				6578B83826DC369A000A1F23 /* Main.Storyboard2.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -290,6 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4DED77B26D30891004468F1 /* LaunchScreen.storyboard in Resources */,
+				6578B83D26DC4230000A1F23 /* PersonagensCell.xib in Resources */,
+				6578B83926DC369A000A1F23 /* Main.Storyboard2.storyboard in Resources */,
 				65509A0E26D87B9C0039C1CB /* Personagens.json in Resources */,
 				B4DED77826D30891004468F1 /* Assets.xcassets in Resources */,
 				B4DED77626D3088E004468F1 /* Main.storyboard in Resources */,
@@ -317,14 +331,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65BB589826DC4E4100295754 /* DetailsPersonagensController.swift in Sources */,
 				B4DED7A326D31026004468F1 /* LoginViewController.swift in Sources */,
 				B4DED77326D3088E004468F1 /* MainViewController.swift in Sources */,
+				6578B83C26DC4230000A1F23 /* PersonagensCell.swift in Sources */,
 				65B4BB7526D6F58400F7B55C /* classeControl.swift in Sources */,
 				B4DED76F26D3088E004468F1 /* AppDelegate.swift in Sources */,
 				65509A1226D8A0CC0039C1CB /* HomeController.swift in Sources */,
 				B4DED7A526D3103B004468F1 /* SignInViewController.swift in Sources */,
+				65BB589626DC4A8A00295754 /* PersonagensController.swift in Sources */,
 				B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */,
-				65B4BB7326D6F52F00F7B55C /* classe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

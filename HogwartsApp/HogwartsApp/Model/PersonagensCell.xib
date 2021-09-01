@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="102" id="KGk-i7-Jjw" customClass="PersonagensCell" customModule="HogwartsApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="333" height="102"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="333" height="102"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="z8I-xm-rj2">
+                        <rect key="frame" x="0.0" y="0.0" width="333" height="102"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TVc-nI-Mdu">
+                        <rect key="frame" x="0.0" y="0.0" width="102" height="102"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYZ-wH-W4y">
+                        <rect key="frame" x="110" y="41" width="145" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.89000000000000001" green="0.88572920919999998" blue="0.86722669819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="z8I-xm-rj2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0rG-cU-F2g"/>
+                    <constraint firstAttribute="bottom" secondItem="TVc-nI-Mdu" secondAttribute="bottom" id="NAh-hK-L4R"/>
+                    <constraint firstAttribute="trailing" secondItem="TVc-nI-Mdu" secondAttribute="trailing" constant="231" id="SG8-dG-fS2"/>
+                    <constraint firstItem="TVc-nI-Mdu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="YgN-Ho-ahd"/>
+                    <constraint firstItem="z8I-xm-rj2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qgQ-hQ-7W8"/>
+                    <constraint firstItem="TVc-nI-Mdu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uVw-Dx-6eL"/>
+                    <constraint firstAttribute="trailing" secondItem="z8I-xm-rj2" secondAttribute="trailing" id="wc5-C9-JV0"/>
+                    <constraint firstAttribute="bottom" secondItem="z8I-xm-rj2" secondAttribute="bottom" id="zQs-m1-N4L"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imagemPersonagem" destination="TVc-nI-Mdu" id="OY2-zR-hyH"/>
+                <outlet property="nomePersonagem" destination="uYZ-wH-W4y" id="gZe-TD-cAD"/>
+            </connections>
+            <point key="canvasLocation" x="141.30434782608697" y="60.267857142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Unknown" width="1020" height="2208"/>
+    </resources>
+</document>

@@ -472,6 +472,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="PersonagensButton:" destination="w0U-8T-e6Q" eventType="touchUpInside" id="yLA-mP-d2v"/>
                                                     <action selector="tappedLoginButton:" destination="MGX-aK-R8V" eventType="touchUpInside" id="VqI-fI-i72"/>
                                                 </connections>
                                             </button>
@@ -582,6 +583,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="jxM-Zd-P6d"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZSB-o3-QuR">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.89000000000000001" green="0.88572920919999998" blue="0.86722669819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
