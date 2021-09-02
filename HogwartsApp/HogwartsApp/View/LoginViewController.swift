@@ -29,7 +29,5 @@ class LoginViewController: UIViewController {
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
         vc.modalPresentationStyle = .overFullScreen
-        self.present(vc, animated: true, completion: nil)
-        self.dismiss(animated: true, completion: nil)
-    }
+        self.present(vc, animated: true, completion: nil)    }
 }

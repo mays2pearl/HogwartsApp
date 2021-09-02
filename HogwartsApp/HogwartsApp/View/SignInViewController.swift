@@ -39,7 +39,6 @@ class SignInViewController: UIViewController {
         vc.definesPresentationContext = true
         vc.modalPresentationStyle = .overFullScreen
         self.present(vc, animated: true, completion: nil)
-        self.dismiss(animated: true, completion: nil)
     }
     
 }

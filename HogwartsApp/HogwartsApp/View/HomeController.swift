@@ -29,9 +29,8 @@ class HomeController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "PersonagensController") as! PersonagensController
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
-        vc.modalPresentationStyle = .overFullScreen
+        vc.modalPresentationStyle = .automatic
         self.present(vc, animated: true, completion: nil)
-        self.dismiss(animated: true, completion: nil)
     
     }
     
@@ -40,9 +39,8 @@ class HomeController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "AnimaisController") as! AnimaisController
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
-        vc.modalPresentationStyle = .overFullScreen
+        vc.modalPresentationStyle = .automatic
         self.present(vc, animated: true, completion: nil)
-        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func tappedSelectorHatButton(_ sender: UIButton) {
@@ -50,9 +48,8 @@ class HomeController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "HatViewController") as! HatViewController
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
-        vc.modalPresentationStyle = .overFullScreen
+        vc.modalPresentationStyle = .automatic
         self.present(vc, animated: true, completion: nil)
-        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func tappedQuizButton(_ sender: UIButton) {
@@ -60,9 +57,8 @@ class HomeController: UIViewController {
         let vc = storyboard.instantiateViewController(withIdentifier: "QuizViewController") as! QuizViewController
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
-        vc.modalPresentationStyle = .overFullScreen
+        vc.modalPresentationStyle = .automatic
         self.present(vc, animated: true, completion: nil)
-        self.dismiss(animated: true, completion: nil)
     }
     
 }
