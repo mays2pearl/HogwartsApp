@@ -33,8 +33,13 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func tappedSignInButton(_ sender: UIButton) {
-        
-        performSegue(withIdentifier: "HomeController", sender: "HomeController")
+        let storyboard = UIStoryboard(name: "PersonagensEAnimais", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "HomeController") as! HomeController
+        vc.providesPresentationContextTransitionStyle = true
+        vc.definesPresentationContext = true
+        vc.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     
 }

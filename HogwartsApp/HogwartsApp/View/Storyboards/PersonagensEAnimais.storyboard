@@ -140,8 +140,6 @@
                         <outlet property="chapeuSelButton" destination="iPS-qQ-21J" id="Pkp-ym-fYx"/>
                         <outlet property="personagensButton" destination="JGd-6h-f5o" id="Ieu-id-pGs"/>
                         <outlet property="quizButton" destination="qTS-8R-6PJ" id="wYC-SU-tBY"/>
-                        <segue destination="xWh-vl-dof" kind="presentation" identifier="PersonagensController" modalPresentationStyle="fullScreen" id="y54-yP-gFK"/>
-                        <segue destination="U5y-Iy-h1f" kind="presentation" identifier="AnimaisController" modalPresentationStyle="fullScreen" id="AyC-kX-4KR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HNw-1Q-JHr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -173,7 +171,7 @@
         <!--Personagens Controller-->
         <scene sceneID="4HX-c4-hni">
             <objects>
-                <viewController id="xWh-vl-dof" customClass="PersonagensController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PersonagensController" id="xWh-vl-dof" customClass="PersonagensController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bid-Yo-JGL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -205,7 +203,7 @@
         <!--Animais Controller-->
         <scene sceneID="wFo-r7-OeW">
             <objects>
-                <viewController id="U5y-Iy-h1f" customClass="AnimaisController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimaisController" id="U5y-Iy-h1f" customClass="AnimaisController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZhW-c5-3Bu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

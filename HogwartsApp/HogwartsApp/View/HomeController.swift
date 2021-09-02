@@ -24,9 +24,45 @@ class HomeController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func PersonagensButton(_ sender: Any) {
-        
+    @IBAction func PersonagensButton(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "PersonagensEAnimais", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "PersonagensController") as! PersonagensController
+        vc.providesPresentationContextTransitionStyle = true
+        vc.definesPresentationContext = true
+        vc.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     
+    }
+    
+    @IBAction func tappedBeastButton(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "PersonagensEAnimais", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "AnimaisController") as! AnimaisController
+        vc.providesPresentationContextTransitionStyle = true
+        vc.definesPresentationContext = true
+        vc.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func tappedSelectorHatButton(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Hat", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "HatViewController") as! HatViewController
+        vc.providesPresentationContextTransitionStyle = true
+        vc.definesPresentationContext = true
+        vc.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func tappedQuizButton(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Quiz", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "QuizViewController") as! QuizViewController
+        vc.providesPresentationContextTransitionStyle = true
+        vc.definesPresentationContext = true
+        vc.modalPresentationStyle = .overFullScreen
+        self.present(vc, animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     
 }
