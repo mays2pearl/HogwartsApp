@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Quiz View Controller-->
+        <scene sceneID="wx2-1Q-zI3">
+            <objects>
+                <viewController storyboardIdentifier="QuizViewController" id="INz-3m-Epk" customClass="QuizViewController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="37x-Cu-ANO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image.harry2" translatesAutoresizingMaskIntoConstraints="NO" id="W4x-s0-Kad">
+                                <rect key="frame" x="16" y="44" width="343" height="348"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="AfM-2v-Y1M"/>
+                                    <constraint firstAttribute="height" constant="348" id="EoS-dv-71O"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="709-NX-OPw">
+                                <rect key="frame" x="62" y="527" width="251" height="47"/>
+                                <color key="backgroundColor" red="0.6625953913" green="0.50837218760000003" blue="0.24552798270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="OMj-yr-6y2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="26"/>
+                                <state key="normal" title="Iniciar teste">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="INz-3m-Epk" eventType="touchUpInside" id="VQU-GX-gD7"/>
+                                    <segue destination="ajI-Fb-xp1" kind="presentation" modalPresentationStyle="fullScreen" id="rkd-qn-9R0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teste seus conhecimentos sobre o mundo Harry Potter!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlD-Rp-hPh">
+                                <rect key="frame" x="16" y="432" width="343" height="50.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gos-nT-Njq"/>
+                        <color key="backgroundColor" red="0.089742593470000007" green="0.10143942390000001" blue="0.13050609830000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="709-NX-OPw" firstAttribute="centerX" secondItem="37x-Cu-ANO" secondAttribute="centerX" id="5nz-GA-GCY"/>
+                            <constraint firstItem="709-NX-OPw" firstAttribute="top" secondItem="BlD-Rp-hPh" secondAttribute="bottom" constant="44.670000000000002" id="6Ct-3n-4gK"/>
+                            <constraint firstItem="BlD-Rp-hPh" firstAttribute="top" secondItem="W4x-s0-Kad" secondAttribute="bottom" constant="40" id="BpE-ye-RtT"/>
+                            <constraint firstItem="709-NX-OPw" firstAttribute="centerX" secondItem="37x-Cu-ANO" secondAttribute="centerX" id="aNM-ks-Hze"/>
+                            <constraint firstItem="BlD-Rp-hPh" firstAttribute="leading" secondItem="gos-nT-Njq" secondAttribute="leading" constant="16" id="eR8-Kd-8Jv"/>
+                            <constraint firstItem="W4x-s0-Kad" firstAttribute="centerX" secondItem="37x-Cu-ANO" secondAttribute="centerX" id="iOH-Rs-xh0"/>
+                            <constraint firstItem="W4x-s0-Kad" firstAttribute="top" secondItem="gos-nT-Njq" secondAttribute="top" id="uT8-de-IhH"/>
+                            <constraint firstItem="gos-nT-Njq" firstAttribute="trailing" secondItem="BlD-Rp-hPh" secondAttribute="trailing" constant="16" id="vUO-Bm-8c9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7XZ-Wk-LoQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-314.39999999999998" y="-142.61083743842366"/>
+        </scene>
+        <!--Quiz View Controller Questions-->
+        <scene sceneID="Unn-wr-lWF">
+            <objects>
+                <viewController id="ajI-Fb-xp1" customClass="QuizViewControllerQuestions" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sW4-Og-Tyg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harry" translatesAutoresizingMaskIntoConstraints="NO" id="rEi-6j-gmj">
+                                <rect key="frame" x="16" y="44" width="343" height="348"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="348" id="d1l-se-Xvp"/>
+                                    <constraint firstAttribute="width" constant="343" id="s0W-od-kxc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Que personagem é esse?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJ9-QY-ha6">
+                                <rect key="frame" x="16" y="432" width="343" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dY5-g4-OWX">
+                                <rect key="frame" x="49.666666666666657" y="534" width="276" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="xD6-zN-zA9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2L-D6-cFZ">
+                                <rect key="frame" x="62" y="619" width="251" height="47"/>
+                                <color key="backgroundColor" red="0.6625953913" green="0.50837218760000003" blue="0.24552798270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="eYY-sF-9Cx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="26"/>
+                                <state key="normal" title="Verificar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="INz-3m-Epk" eventType="touchUpInside" id="V3Q-qR-ezF"/>
+                                    <action selector="checkButton:" destination="ajI-Fb-xp1" eventType="touchUpInside" id="HyS-QT-EKP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KmJ-p8-nW3"/>
+                        <color key="backgroundColor" red="0.089742593470000007" green="0.10143942390000001" blue="0.13050609830000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nJ9-QY-ha6" firstAttribute="leading" secondItem="KmJ-p8-nW3" secondAttribute="leading" constant="16" id="1lj-Lz-fIp"/>
+                            <constraint firstItem="KmJ-p8-nW3" firstAttribute="trailing" secondItem="nJ9-QY-ha6" secondAttribute="trailing" constant="16" id="4LJ-nh-2pm"/>
+                            <constraint firstItem="rEi-6j-gmj" firstAttribute="centerX" secondItem="sW4-Og-Tyg" secondAttribute="centerX" id="CVS-4h-6GJ"/>
+                            <constraint firstItem="O2L-D6-cFZ" firstAttribute="centerX" secondItem="sW4-Og-Tyg" secondAttribute="centerX" id="cNj-gl-83f"/>
+                            <constraint firstItem="dY5-g4-OWX" firstAttribute="top" secondItem="nJ9-QY-ha6" secondAttribute="bottom" constant="72" id="iYR-gZ-BNG"/>
+                            <constraint firstItem="nJ9-QY-ha6" firstAttribute="top" secondItem="rEi-6j-gmj" secondAttribute="bottom" constant="40" id="u2e-x2-ToX"/>
+                            <constraint firstItem="rEi-6j-gmj" firstAttribute="top" secondItem="KmJ-p8-nW3" secondAttribute="top" id="u8f-Jg-ZQb"/>
+                            <constraint firstItem="O2L-D6-cFZ" firstAttribute="top" secondItem="dY5-g4-OWX" secondAttribute="bottom" constant="51" id="uT6-cj-Wwo"/>
+                            <constraint firstItem="dY5-g4-OWX" firstAttribute="centerX" secondItem="sW4-Og-Tyg" secondAttribute="centerX" id="yI4-og-oNW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageCharacter" destination="rEi-6j-gmj" id="8R6-HN-47P"/>
+                        <outlet property="textFieldInput" destination="dY5-g4-OWX" id="9OJ-qC-Z5T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VQ2-En-ZM0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="618.39999999999998" y="-142.61083743842366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="harry" width="960" height="640"/>
+        <image name="image.harry2" width="1000" height="1470"/>
+    </resources>
+</document>

@@ -314,7 +314,6 @@
                         <outlet property="stateTextField" destination="j3g-Ho-Zff" id="Tsf-IQ-Gzz"/>
                         <outlet property="townLabel" destination="FyF-GR-8S3" id="aU5-RA-YGp"/>
                         <outlet property="townTextField" destination="11A-x2-vlD" id="TWZ-vG-vtD"/>
-                        <segue destination="fUM-Z9-2Z2" kind="show" identifier="HomeController" id="at9-Ka-kxY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xrj-xH-JTO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -425,186 +424,14 @@
                         <outlet property="passwordLabel" destination="ezW-cF-qhy" id="SeK-1M-OyR"/>
                         <outlet property="passwordTextField" destination="PhT-Gb-qjz" id="1nz-cD-HEg"/>
                         <outlet property="viewMain" destination="yPF-Co-fcn" id="Tkh-bf-BjF"/>
-                        <segue destination="fUM-Z9-2Z2" kind="show" identifier="HomeController" id="ANY-PM-dm4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T6x-fH-mOj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="920.79999999999995" y="-363.86806596701655"/>
         </scene>
-        <!--Home-->
-        <scene sceneID="xjV-dd-0sV">
-            <objects>
-                <viewController id="w0U-8T-e6Q" customClass="HomeController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DdI-E7-eMb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXv-4u-nbI">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBy-74-LGY">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="920"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image.harry3" translatesAutoresizingMaskIntoConstraints="NO" id="J8F-A8-oWA">
-                                                <rect key="frame" x="27" y="113" width="357" height="196"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="357" id="UkP-OX-l7K"/>
-                                                    <constraint firstAttribute="height" constant="196" id="swZ-Fv-krv"/>
-                                                </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="QqB-hX-aGa">
-                                                <rect key="frame" x="85.5" y="8" width="240" height="97"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="240" id="KPz-wX-SAs"/>
-                                                    <constraint firstAttribute="height" constant="97" id="UN6-l4-T9w"/>
-                                                </constraints>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGd-6h-f5o">
-                                                <rect key="frame" x="20" y="407" width="374" height="86"/>
-                                                <color key="backgroundColor" red="0.6625953913" green="0.50837218760000003" blue="0.24552798270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="374" id="aTV-8g-ecb"/>
-                                                    <constraint firstAttribute="height" constant="86" id="vrg-MT-Z7m"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="26"/>
-                                                <state key="normal" title="Personagens">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="PersonagensButton:" destination="w0U-8T-e6Q" eventType="touchUpInside" id="yLA-mP-d2v"/>
-                                                    <action selector="tappedLoginButton:" destination="MGX-aK-R8V" eventType="touchUpInside" id="VqI-fI-i72"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVt-FP-byx">
-                                                <rect key="frame" x="20" y="529" width="374" height="89"/>
-                                                <color key="backgroundColor" red="0.6625953913" green="0.50837218760000003" blue="0.24552798270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="374" id="Ah3-uV-LNt"/>
-                                                    <constraint firstAttribute="height" constant="89" id="dIG-aM-AKo"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="26"/>
-                                                <state key="normal" title="Animais">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="tappedLoginButton:" destination="MGX-aK-R8V" eventType="touchUpInside" id="p7p-my-1iF"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPS-qQ-21J">
-                                                <rect key="frame" x="20" y="649" width="374" height="89"/>
-                                                <color key="backgroundColor" red="0.6625953913" green="0.50837218760000003" blue="0.24552798270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="89" id="fr2-Cu-5t0"/>
-                                                    <constraint firstAttribute="width" constant="374" id="ibD-be-c4I"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="26"/>
-                                                <state key="normal" title="Chapeu Seletor">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="tappedLoginButton:" destination="MGX-aK-R8V" eventType="touchUpInside" id="JHQ-PG-e2m"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTS-8R-6PJ">
-                                                <rect key="frame" x="20" y="765" width="374" height="89"/>
-                                                <color key="backgroundColor" red="0.6625953913" green="0.50837218760000003" blue="0.24552798270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="89" id="KSf-k8-vmL"/>
-                                                    <constraint firstAttribute="width" constant="374" id="ScQ-M2-za0"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="26"/>
-                                                <state key="normal" title="Quiz">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="tappedLoginButton:" destination="MGX-aK-R8V" eventType="touchUpInside" id="Lsv-fh-zfD"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.073130656759999996" green="0.073130656759999996" blue="0.073130656759999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstItem="qVt-FP-byx" firstAttribute="leading" secondItem="iPS-qQ-21J" secondAttribute="leading" id="0Wf-x7-S3Y"/>
-                                            <constraint firstItem="QqB-hX-aGa" firstAttribute="centerX" secondItem="J8F-A8-oWA" secondAttribute="centerX" id="1He-rD-Awg"/>
-                                            <constraint firstItem="QqB-hX-aGa" firstAttribute="top" secondItem="eBy-74-LGY" secondAttribute="topMargin" id="BUe-Rv-vOi"/>
-                                            <constraint firstAttribute="trailing" secondItem="QqB-hX-aGa" secondAttribute="trailing" constant="88.5" id="Bns-q2-Avz"/>
-                                            <constraint firstItem="J8F-A8-oWA" firstAttribute="leading" secondItem="eBy-74-LGY" secondAttribute="leading" constant="27" id="C68-1d-UWR"/>
-                                            <constraint firstItem="J8F-A8-oWA" firstAttribute="top" secondItem="QqB-hX-aGa" secondAttribute="bottom" constant="8" symbolic="YES" id="KbF-xG-b7y"/>
-                                            <constraint firstItem="iPS-qQ-21J" firstAttribute="top" secondItem="qVt-FP-byx" secondAttribute="bottom" constant="31" id="SUW-eq-F6Y"/>
-                                            <constraint firstAttribute="height" constant="920" id="TSK-MC-pmj"/>
-                                            <constraint firstItem="JGd-6h-f5o" firstAttribute="centerX" secondItem="eBy-74-LGY" secondAttribute="centerX" id="Vku-E6-vMz"/>
-                                            <constraint firstAttribute="trailing" secondItem="J8F-A8-oWA" secondAttribute="trailing" constant="30" id="WJV-lz-CeO"/>
-                                            <constraint firstItem="qTS-8R-6PJ" firstAttribute="top" secondItem="iPS-qQ-21J" secondAttribute="bottom" constant="27" id="WhI-qz-dpS"/>
-                                            <constraint firstItem="J8F-A8-oWA" firstAttribute="leading" secondItem="eBy-74-LGY" secondAttribute="leading" constant="27" id="bCh-6u-v5d"/>
-                                            <constraint firstItem="iPS-qQ-21J" firstAttribute="leading" secondItem="qTS-8R-6PJ" secondAttribute="leading" id="cDQ-zG-lqF"/>
-                                            <constraint firstItem="QqB-hX-aGa" firstAttribute="leading" secondItem="eBy-74-LGY" secondAttribute="leading" constant="85.5" id="cKf-rE-IMp"/>
-                                            <constraint firstItem="JGd-6h-f5o" firstAttribute="top" secondItem="J8F-A8-oWA" secondAttribute="bottom" constant="98" id="qZd-xf-7im"/>
-                                            <constraint firstItem="qVt-FP-byx" firstAttribute="top" secondItem="JGd-6h-f5o" secondAttribute="bottom" constant="36" id="uUJ-8D-0K7"/>
-                                            <constraint firstItem="JGd-6h-f5o" firstAttribute="leading" secondItem="qVt-FP-byx" secondAttribute="leading" id="ykx-HF-AtQ"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="eBy-74-LGY" secondAttribute="trailing" id="0a8-xQ-Yj8"/>
-                                    <constraint firstItem="eBy-74-LGY" firstAttribute="leading" secondItem="nXv-4u-nbI" secondAttribute="leading" id="Cmn-3u-ZE6"/>
-                                    <constraint firstItem="eBy-74-LGY" firstAttribute="top" secondItem="nXv-4u-nbI" secondAttribute="top" id="Eg6-ax-UKk"/>
-                                    <constraint firstAttribute="bottom" secondItem="eBy-74-LGY" secondAttribute="bottom" id="QR3-13-zUQ"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="oJs-qa-L5X"/>
-                        <color key="backgroundColor" red="0.074499122799999998" green="0.074516661469999995" blue="0.074495263399999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="nXv-4u-nbI" firstAttribute="leading" secondItem="oJs-qa-L5X" secondAttribute="leading" id="7mx-i6-dBh"/>
-                            <constraint firstItem="eBy-74-LGY" firstAttribute="width" secondItem="DdI-E7-eMb" secondAttribute="width" id="ULW-i5-RZO"/>
-                            <constraint firstItem="nXv-4u-nbI" firstAttribute="trailing" secondItem="oJs-qa-L5X" secondAttribute="trailing" id="dQQ-rt-M1T"/>
-                            <constraint firstItem="nXv-4u-nbI" firstAttribute="top" secondItem="oJs-qa-L5X" secondAttribute="top" id="efv-PV-j5Q"/>
-                            <constraint firstItem="nXv-4u-nbI" firstAttribute="bottom" secondItem="oJs-qa-L5X" secondAttribute="bottom" id="tjk-sO-q4f"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="26u-hx-BzX"/>
-                    <navigationItem key="navigationItem" id="qOg-4j-gmY"/>
-                    <size key="freeformSize" width="414" height="950"/>
-                    <connections>
-                        <outlet property="animaisButton" destination="qVt-FP-byx" id="9fs-n4-lkg"/>
-                        <outlet property="chapeuSelButton" destination="iPS-qQ-21J" id="Pkp-ym-fYx"/>
-                        <outlet property="personagensButton" destination="JGd-6h-f5o" id="Ieu-id-pGs"/>
-                        <outlet property="quizButton" destination="qTS-8R-6PJ" id="wYC-SU-tBY"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HNw-1Q-JHr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2610.144927536232" y="-31.473214285714285"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="Meo-Uy-4pI">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fUM-Z9-2Z2" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="jxM-Zd-P6d"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZSB-o3-QuR">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" red="0.89000000000000001" green="0.88572920919999998" blue="0.86722669819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" red="0.89000000000000001" green="0.88572920919999998" blue="0.86722669819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="w0U-8T-e6Q" kind="relationship" relationship="viewControllers" destinationCreationSelector="HomeController" id="R5A-zZ-5fu"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iNG-2v-yFM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1701.449275362319" y="-31.473214285714285"/>
-        </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="at9-Ka-kxY"/>
-    </inferredMetricsTieBreakers>
     <resources>
-        <image name="house" catalog="system" width="128" height="106"/>
-        <image name="image.harry3" width="1280" height="512"/>
         <image name="logo" width="360" height="329"/>
     </resources>
 </document>
