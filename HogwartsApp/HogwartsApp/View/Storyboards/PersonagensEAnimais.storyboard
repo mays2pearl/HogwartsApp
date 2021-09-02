@@ -78,7 +78,7 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tappedSelectorHatButton:" destination="w0U-8T-e6Q" eventType="touchUpInside" id="Obl-z1-KNI"/>
+                                                    <segue destination="Orh-Ru-vFH" kind="show" id="h6W-71-Nif"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTS-8R-6PJ">
@@ -142,7 +142,6 @@
                     <size key="freeformSize" width="414" height="950"/>
                     <connections>
                         <outlet property="animaisButton" destination="qVt-FP-byx" id="9fs-n4-lkg"/>
-                        <outlet property="chapeuSelButton" destination="iPS-qQ-21J" id="Pkp-ym-fYx"/>
                         <outlet property="personagensButton" destination="JGd-6h-f5o" id="Ieu-id-pGs"/>
                         <outlet property="quizButton" destination="qTS-8R-6PJ" id="wYC-SU-tBY"/>
                     </connections>
@@ -351,10 +350,59 @@
             </objects>
             <point key="canvasLocation" x="4182.608695652174" y="-31.473214285714285"/>
         </scene>
+        <!--Hat View Controller-->
+        <scene sceneID="V4T-37-wqY">
+            <objects>
+                <viewController storyboardIdentifier="HatViewController" id="Orh-Ru-vFH" customClass="HatViewController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aKE-NC-Sw9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hat" translatesAutoresizingMaskIntoConstraints="NO" id="3Hy-MC-gvf">
+                                <rect key="frame" x="35.5" y="0.0" width="343" height="348"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="348" id="8zJ-4x-aAG"/>
+                                    <constraint firstAttribute="width" constant="343" id="a6r-Qh-lL2"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite seu nome aqui" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sn9-hV-ElS">
+                                <rect key="frame" x="16" y="401" width="382" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G23-nc-dea">
+                                <rect key="frame" x="62" y="483" width="290" height="47"/>
+                                <color key="backgroundColor" red="0.6625953913" green="0.50837218760000003" blue="0.24552798270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="26"/>
+                                <state key="normal" title="Sortear">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wJQ-SJ-Jye"/>
+                        <color key="backgroundColor" red="0.089742593470000007" green="0.10143942390000001" blue="0.13050609830000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wJQ-SJ-Jye" firstAttribute="trailing" secondItem="G23-nc-dea" secondAttribute="trailing" constant="62" id="A4y-Nb-ORq"/>
+                            <constraint firstItem="G23-nc-dea" firstAttribute="top" secondItem="sn9-hV-ElS" secondAttribute="bottom" constant="48" id="GY6-4a-KHq"/>
+                            <constraint firstItem="sn9-hV-ElS" firstAttribute="leading" secondItem="wJQ-SJ-Jye" secondAttribute="leading" constant="16" id="Wix-3o-fAj"/>
+                            <constraint firstItem="wJQ-SJ-Jye" firstAttribute="trailing" secondItem="sn9-hV-ElS" secondAttribute="trailing" constant="16" id="ZUQ-Q6-4mE"/>
+                            <constraint firstItem="3Hy-MC-gvf" firstAttribute="centerX" secondItem="aKE-NC-Sw9" secondAttribute="centerX" id="acS-Lp-fWc"/>
+                            <constraint firstItem="3Hy-MC-gvf" firstAttribute="top" secondItem="wJQ-SJ-Jye" secondAttribute="top" id="k1Q-Bn-Cwz"/>
+                            <constraint firstItem="G23-nc-dea" firstAttribute="leading" secondItem="wJQ-SJ-Jye" secondAttribute="leading" constant="62" id="rw9-pi-V1d"/>
+                            <constraint firstItem="sn9-hV-ElS" firstAttribute="top" secondItem="3Hy-MC-gvf" secondAttribute="bottom" constant="53" id="veZ-JG-CxH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mdL-WX-H23"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bqr-5Z-HaM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2675" y="684"/>
+        </scene>
     </scenes>
     <resources>
         <image name="criatura.harry" width="512" height="216"/>
         <image name="harry" width="960" height="640"/>
+        <image name="hat" width="610" height="516"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="image.harry3" width="1280" height="512"/>
         <image name="logo" width="360" height="329"/>
