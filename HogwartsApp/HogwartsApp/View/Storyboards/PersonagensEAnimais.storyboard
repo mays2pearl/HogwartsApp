@@ -197,7 +197,7 @@
                     <connections>
                         <outlet property="PersonagensView" destination="Eeb-eT-BYE" id="nZm-X6-JSL"/>
                         <outlet property="SearchPersonagens" destination="ceZ-iT-eyM" id="nSu-W6-5zP"/>
-                        <segue destination="ppW-i8-dKq" kind="presentation" identifier="DetailsPersonagensController" modalPresentationStyle="fullScreen" id="Lcl-qe-oJf"/>
+                        <segue destination="ppW-i8-dKq" kind="show" identifier="DetailsPersonagensController" id="Lcl-qe-oJf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4YI-cD-w5A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -229,7 +229,7 @@
                     <connections>
                         <outlet property="SearchAnimais" destination="TE3-ji-gk5" id="WTG-Se-ojM"/>
                         <outlet property="myTableView" destination="vTP-g3-CdG" id="SBI-fg-ZH4"/>
-                        <segue destination="lIb-aS-ljU" kind="presentation" identifier="DetailsPersonagensController" modalPresentationStyle="fullScreen" id="hFb-Vn-wSF"/>
+                        <segue destination="lIb-aS-ljU" kind="show" identifier="DetailsPersonagensController" id="hFb-Vn-wSF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dDR-0Z-Zif" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -241,17 +241,17 @@
             <objects>
                 <viewController id="lIb-aS-ljU" customClass="DetailsAnimaisController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gxR-eF-15O">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="criatura.harry" translatesAutoresizingMaskIntoConstraints="NO" id="5cF-xm-WaK">
-                                <rect key="frame" x="20" y="72" width="374" height="256"/>
+                                <rect key="frame" x="20" y="28" width="374" height="256"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="kk8-dr-SSV"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sereia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZsU-4t-eBW">
-                                <rect key="frame" x="20" y="384" width="374" height="54"/>
+                                <rect key="frame" x="20" y="340" width="374" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="Hdl-kw-E3u"/>
                                 </constraints>
@@ -260,7 +260,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fcv-Hj-XVY">
-                                <rect key="frame" x="20" y="471" width="374" height="343"/>
+                                <rect key="frame" x="20" y="427" width="374" height="333"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -283,6 +283,7 @@
                             <constraint firstItem="5cF-xm-WaK" firstAttribute="leading" secondItem="ZsU-4t-eBW" secondAttribute="leading" id="dR8-tv-yBM"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="OL8-AB-O7V"/>
                     <connections>
                         <outlet property="descricaoAnimal" destination="fcv-Hj-XVY" id="agb-dd-EUd"/>
                         <outlet property="imageAnimal" destination="5cF-xm-WaK" id="Yyb-BS-Xgb"/>
@@ -298,17 +299,17 @@
             <objects>
                 <viewController id="ppW-i8-dKq" customClass="DetailsPersonagensController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K6S-sn-cHI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harry" translatesAutoresizingMaskIntoConstraints="NO" id="5dR-NB-EY1">
-                                <rect key="frame" x="20" y="75" width="374" height="256"/>
+                                <rect key="frame" x="20" y="31" width="374" height="256"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="wZ3-GY-MPw"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3eQ-gd-7q2">
-                                <rect key="frame" x="20" y="491" width="374" height="343"/>
+                                <rect key="frame" x="20" y="447" width="374" height="333"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -316,7 +317,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harry Potter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7y-X4-tfh">
-                                <rect key="frame" x="20" y="372" width="374" height="54"/>
+                                <rect key="frame" x="20" y="328" width="374" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="2YZ-gp-hTc"/>
                                 </constraints>
@@ -340,6 +341,7 @@
                             <constraint firstItem="5dR-NB-EY1" firstAttribute="leading" secondItem="K6S-sn-cHI" secondAttribute="leadingMargin" id="l1c-BO-KUV"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="aS4-Y9-eCY"/>
                     <connections>
                         <outlet property="detailImagemPersonagem" destination="5dR-NB-EY1" id="1J6-6t-Yxy"/>
                         <outlet property="detailTextPersonagem" destination="3eQ-gd-7q2" id="prB-rr-mHb"/>
