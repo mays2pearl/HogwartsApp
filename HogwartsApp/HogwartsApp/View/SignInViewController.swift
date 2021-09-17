@@ -34,7 +34,7 @@ class SignInViewController: UIViewController {
     
     @IBAction func tappedSignInButton(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "PersonagensEAnimais", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "HomeController") as! HomeController
+        let vc = storyboard.instantiateViewController(withIdentifier: "HomeController") as! HomeViewController
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
         vc.modalPresentationStyle = .overFullScreen

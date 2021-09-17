@@ -1,0 +1,6 @@
+framework module Pods_HogwartsApp_HogwartsAppUITests {
+  umbrella header "Pods-HogwartsApp-HogwartsAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

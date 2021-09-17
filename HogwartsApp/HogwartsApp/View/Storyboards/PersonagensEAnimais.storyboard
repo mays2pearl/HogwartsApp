@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -11,13 +10,13 @@
         <!--Home-->
         <scene sceneID="xjV-dd-0sV">
             <objects>
-                <viewController storyboardIdentifier="HomeController" id="w0U-8T-e6Q" customClass="HomeController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeController" id="w0U-8T-e6Q" customClass="HomeViewController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DdI-E7-eMb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="950"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXv-4u-nbI">
-                                <rect key="frame" x="0.0" y="44" width="414" height="823"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBy-74-LGY">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="920"/>
@@ -178,7 +177,7 @@
             <objects>
                 <viewController storyboardIdentifier="PersonagensController" id="xWh-vl-dof" customClass="PersonagensController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bid-Yo-JGL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Eeb-eT-BYE">
@@ -205,12 +204,12 @@
             </objects>
             <point key="canvasLocation" x="3439" y="-31"/>
         </scene>
-        <!--Animais Controller-->
+        <!--Animals View Controller-->
         <scene sceneID="wFo-r7-OeW">
             <objects>
-                <viewController storyboardIdentifier="AnimaisController" id="U5y-Iy-h1f" customClass="AnimaisController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimaisController" id="U5y-Iy-h1f" customClass="AnimalsViewController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZhW-c5-3Bu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vTP-g3-CdG">
@@ -237,22 +236,22 @@
             </objects>
             <point key="canvasLocation" x="3404.347826086957" y="683.70535714285711"/>
         </scene>
-        <!--Details Animais Controller-->
+        <!--Details Animals View Controller-->
         <scene sceneID="IW4-rL-GTY">
             <objects>
-                <viewController id="lIb-aS-ljU" customClass="DetailsAnimaisController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lIb-aS-ljU" customClass="DetailsAnimalsViewController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gxR-eF-15O">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="criatura.harry" translatesAutoresizingMaskIntoConstraints="NO" id="5cF-xm-WaK">
-                                <rect key="frame" x="20" y="72" width="374" height="256"/>
+                                <rect key="frame" x="20" y="28" width="560" height="256"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="kk8-dr-SSV"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sereia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZsU-4t-eBW">
-                                <rect key="frame" x="20" y="384" width="374" height="54"/>
+                                <rect key="frame" x="20" y="340" width="560" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="Hdl-kw-E3u"/>
                                 </constraints>
@@ -261,7 +260,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fcv-Hj-XVY">
-                                <rect key="frame" x="20" y="471" width="374" height="343"/>
+                                <rect key="frame" x="20" y="427" width="560" height="125"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -294,22 +293,22 @@
             </objects>
             <point key="canvasLocation" x="4183" y="684"/>
         </scene>
-        <!--Details Personagens Controller-->
+        <!--Details Personagens View Controller-->
         <scene sceneID="Avu-nf-HyP">
             <objects>
-                <viewController id="ppW-i8-dKq" customClass="DetailsPersonagensController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ppW-i8-dKq" customClass="DetailsPersonagensViewController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K6S-sn-cHI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harry" translatesAutoresizingMaskIntoConstraints="NO" id="5dR-NB-EY1">
-                                <rect key="frame" x="20" y="75" width="374" height="256"/>
+                                <rect key="frame" x="20" y="31" width="560" height="256"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="wZ3-GY-MPw"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3eQ-gd-7q2">
-                                <rect key="frame" x="20" y="491" width="374" height="343"/>
+                                <rect key="frame" x="20" y="447" width="560" height="125"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -317,7 +316,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harry Potter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7y-X4-tfh">
-                                <rect key="frame" x="20" y="372" width="374" height="54"/>
+                                <rect key="frame" x="20" y="328" width="560" height="54"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="2YZ-gp-hTc"/>
                                 </constraints>

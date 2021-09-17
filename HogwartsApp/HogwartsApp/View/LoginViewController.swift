@@ -25,9 +25,11 @@ class LoginViewController: UIViewController {
     
     @IBAction func tappedLoginButton(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "PersonagensEAnimais", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "HomeController") as! HomeController
+        let vc = storyboard.instantiateViewController(withIdentifier: "HomeController") as! HomeViewController
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
         vc.modalPresentationStyle = .overFullScreen
-        self.present(vc, animated: true, completion: nil)    }
+        self.present(vc, animated: true, completion: nil)
+        
+    }
 }
