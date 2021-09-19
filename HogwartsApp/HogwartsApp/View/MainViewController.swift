@@ -17,11 +17,13 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let button = UIButton(type: .roundedRect)
-            button.frame = CGRect(x: 20, y: 50, width: 100, height: 30)
-            button.setTitle("Test Crash", for: [])
-            button.addTarget(self, action: #selector(self.crashButtonTapped(_:)), for: .touchUpInside)
-            view.addSubview(button)
+        let newLayer = CAGradientLayer()
+        newLayer.colors = [UIColor.black.cgColor, UIColor.black.cgColor, UIColor.darkGray.cgColor]
+        newLayer.frame = self.viewMain.frame
+//        newLayer.startPoint = CGPoint(x: 0, y: 0)
+//        newLayer.endPoint = CGPoint(x: 1, y: 1)
+        
+        self.viewMain.layer.addSublayer(newLayer)
         }
 
     @IBAction func tappedLoginButton(_ sender: UIButton) {
@@ -30,9 +32,9 @@ class MainViewController: UIViewController {
     @IBAction func tappedSignInButton(_ sender: UIButton) {
     }
     
-    @IBAction func crashButtonTapped(_ sender: AnyObject) {
-          let numbers = [0]
-          let _ = numbers[1]
-      }
+//    @IBAction func crashButtonTapped(_ sender: AnyObject) {
+//          let numbers = [0]
+//          let _ = numbers[1]
+//      }
 }
 

@@ -26,7 +26,7 @@ class HomeViewController: UIViewController {
     
     @IBAction func PersonagensButton(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "PersonagensEAnimais", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "PersonagensController") as! PersonagensController
+        let vc = storyboard.instantiateViewController(withIdentifier: "PersonagensController") as! CharactersViewController
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
         vc.modalPresentationStyle = .automatic

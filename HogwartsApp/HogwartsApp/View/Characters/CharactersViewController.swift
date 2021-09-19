@@ -7,10 +7,12 @@
 
 import UIKit
 
-class PersonagensController: UIViewController {
+class CharactersViewController: UIViewController {
     
-    @IBOutlet weak var PersonagensView: UITableView!
-    @IBOutlet weak var SearchPersonagens: UISearchBar!
+    @IBOutlet weak var scrollMain: UIScrollView!
+    @IBOutlet weak var viewMain: UIView!
+    @IBOutlet weak var search: UISearchBar!
+    @IBOutlet weak var charactersTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
