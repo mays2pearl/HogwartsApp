@@ -646,8 +646,14 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="AgE-Ug-rR5">
+            <size key="intrinsicContentSize" width="48" height="36"/>
+        </designable>
         <designable name="Njz-3y-vW7">
             <size key="intrinsicContentSize" width="71" height="36"/>
+        </designable>
+        <designable name="noC-Aa-pmw">
+            <size key="intrinsicContentSize" width="85" height="36"/>
         </designable>
     </designables>
     <resources>

@@ -19,6 +19,7 @@ struct Character: Codable {
     var ancestry: String?
     var eyeColour: String?
     var hairColour: String?
+    var wand: [Wand]?
     var patronous: String?
     var hogwartsStudent: Bool?
     var hogwartsStaff: Bool?
@@ -28,3 +29,9 @@ struct Character: Codable {
     
 }
 
+struct Wand: Codable {
+    var wood: String?
+    var core: String?
+    var length: Int?
+    
+}

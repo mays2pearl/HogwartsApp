@@ -26,6 +26,7 @@
 		846525BA26E06745005F3081 /* BeastTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525B826E06745005F3081 /* BeastTableCell.swift */; };
 		B4094B1E26E035200036993E /* Personagens.json in Resources */ = {isa = PBXBuildFile; fileRef = B4094B1D26E035200036993E /* Personagens.json */; };
 		B426F0BF26F4172A003CC921 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B426F0BE26F4172A003CC921 /* GoogleService-Info.plist */; };
+		B446329D26F8175C0041781B /* defaultLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446329C26F8175C0041781B /* defaultLinks.swift */; };
 		B4B2BD0C26F6B2890076B808 /* Beasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2BD0B26F6B2890076B808 /* Beasts.swift */; };
 		B4B2BD0E26F6B32D0076B808 /* Beasts.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B2BD0D26F6B32D0076B808 /* Beasts.json */; };
 		B4B2BD1026F6B42D0076B808 /* BeastsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2BD0F26F6B42D0076B808 /* BeastsController.swift */; };
@@ -87,6 +88,7 @@
 		AA7F80FFDA375A2225417005 /* Pods-HogwartsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HogwartsAppTests/Pods-HogwartsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4094B1D26E035200036993E /* Personagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Personagens.json; path = HogwartsApp/Mock/Personagens.json; sourceTree = SOURCE_ROOT; };
 		B426F0BE26F4172A003CC921 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B446329C26F8175C0041781B /* defaultLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaultLinks.swift; sourceTree = "<group>"; };
 		B4B2BD0B26F6B2890076B808 /* Beasts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beasts.swift; sourceTree = "<group>"; };
 		B4B2BD0D26F6B32D0076B808 /* Beasts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Beasts.json; sourceTree = "<group>"; };
 		B4B2BD0F26F6B42D0076B808 /* BeastsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastsController.swift; sourceTree = "<group>"; };
@@ -360,6 +362,7 @@
 			children = (
 				B4E9F7D026F782BC00C0615A /* GradientView.swift */,
 				B4E9F7D326F7977F00C0615A /* ButtonGradient.swift */,
+				B446329C26F8175C0041781B /* defaultLinks.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -668,6 +671,7 @@
 				65BB589626DC4A8A00295754 /* CharactersViewController.swift in Sources */,
 				846525BA26E06745005F3081 /* BeastTableCell.swift in Sources */,
 				84371BB626E06F3A00F8F8F1 /* BeastsViewController.swift in Sources */,
+				B446329D26F8175C0041781B /* defaultLinks.swift in Sources */,
 				B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

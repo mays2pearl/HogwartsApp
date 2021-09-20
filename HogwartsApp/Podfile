@@ -9,6 +9,7 @@ target 'HogwartsApp' do
 
   pod 'Firebase/Analytics'
   pod 'Firebase/Crashlytics'
+  pod 'Alamofire', '~> 5.2'
 
   target 'HogwartsAppTests' do
     inherit! :search_paths

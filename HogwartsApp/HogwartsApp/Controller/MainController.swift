@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Alamofire
 
 
 class MainController {
@@ -13,52 +14,37 @@ class MainController {
     var arrayCharacter: [Character] = []
     
     
-//    func count() -> Int {
-//        return self.arrayCharacter.count
-//    }
+    func count() -> Int {
+        return self.arrayCharacter.count
+    }
     
-//    func getCharacters(completion: @escaping (Bool, Error?) -> Void) {
-//
-//        AF.request("http://hp-api.herokuapp.com/api/characters").responseJSON { response in
-//
-//            if  response.response?.statusCode == 200 {
-//
-//                if let data = response.data {
-//
-//                    do {
-//
-//
-//                        completion(self.arrayTeste  ,true, nil)
-//
-//                    }catch {
-//                        completion([], false,error)
-//                        print(error)
-//                    }
-//                }else {
-//
-//                    print("deu error")
-//                }
-//            }
-//        }
-//
-//    }
-    
-//    func loadJsonCreatures(completionHandler: (_ result: Bool, _ error: Error?) -> Void) {
-//        if let path = Bundle.main.path(forResource: "Creatures", ofType: "json"){
-//            do {
-//                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-//                let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-//                //nome da variavel dicionário
-//                if let _jsonResult = jsonResult as? Dictionary<String,AnyObject>, let account = _jsonResult["productList"] as? [[String: Any]]{
-//                    for value in account {
-//                        self.arrayAccount.append(AccountModel.init(dictionary: value))
-//                    }
-//                }
-//
-//                completionHandler(true,nil)
-//            }catch{
-//                completionHandler(false,error)
-//            }
-//        }
-//    }
+    func getCharacters(completion: @escaping (Bool) -> Void, erro: @escaping (Error) -> Void) {
+
+        AF.request(DefaultLinks.API_DOWNLOAD).responseJSON { response in
+            
+            switch response.result {
+            case .success(_):
+                if let statusCode = response.response?.statusCode {
+                    switch statusCode {
+                    case 200, 201, 202:
+                        guard response.value != nil else {
+                            completion(false)
+                            return
+                        }
+                    case 400, 401, 402, 403, 404:
+                        print("Erro ao encontrar API")
+                        completion(false)
+                    default:
+                        print("default")
+                        completion(false)
+                    }
+                    } else {
+                    completion(false)
+                }
+            case .failure(let error):
+                completion(false)
+                print("Erro ao encontrar API")
+            }
+        }
+    }
 }
