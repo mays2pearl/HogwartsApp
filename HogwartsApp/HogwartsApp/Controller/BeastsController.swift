@@ -7,11 +7,19 @@
 
 import Foundation
 
+protocol BeastsControllerProtocol: AnyObject {
+    
+    func success()
+    func failed(error: Error)
+}
+
 class BeastsController {
     
     private var arrayBeasts: [Beasts] = []
     
-    var count: Int {
+    private weak var delegate: BeastsControllerProtocol?
+    
+    func count() -> Int {
         return self.arrayBeasts.count
     }
     
@@ -19,28 +27,28 @@ class BeastsController {
         return self.arrayBeasts[indexPath.row]
     }
     
-    
     func beastsName(indexPath: IndexPath) -> String {
         return self.arrayBeasts[indexPath.row].name ?? ""
     }
     
     func loadBeasts(completionHandler: (_ result: Bool, _ error: Error?) -> Void) {
-        if let path = Bundle.main.path(forResource: "beasts", ofType: "json"){
+        
+        if let path = Bundle.main.path(forResource: "Beasts", ofType: "json"){
             
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 
                 let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
                 
-                if let _jsonResult = jsonResult as? Dictionary<String,AnyObject>, let beasts = _jsonResult["beasts"] as? [[String: Any]] {
+                if let _jsonResult = jsonResult as? Dictionary<String,AnyObject>, let beasts = _jsonResult["beasts"] as? [[String: Any]]{
                    
                     for value in beasts {
                         self.arrayBeasts.append(Beasts.init(dictionary: value))
                     }
                 }
-                completionHandler(true,nil)
+                completionHandler(true, nil)
             } catch {
-                completionHandler(false,error)
+                completionHandler(false, error)
             }
         }
     }

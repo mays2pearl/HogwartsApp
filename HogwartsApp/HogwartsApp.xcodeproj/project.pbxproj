@@ -14,17 +14,16 @@
 		6578B83C26DC4230000A1F23 /* PersonagensCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578B83A26DC4230000A1F23 /* PersonagensCell.swift */; };
 		65BB589626DC4A8A00295754 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB589526DC4A8A00295754 /* CharactersViewController.swift */; };
 		65BB589826DC4E4100295754 /* CharactersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB589726DC4E4100295754 /* CharactersDetailViewController.swift */; };
-		84371BB626E06F3A00F8F8F1 /* AnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84371BB326E06F3A00F8F8F1 /* AnimalsViewController.swift */; };
-		84371BB826E06FC700F8F8F1 /* DetailsAnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84371BB726E06FC700F8F8F1 /* DetailsAnimalsViewController.swift */; };
+		84371BB626E06F3A00F8F8F1 /* BeastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84371BB326E06F3A00F8F8F1 /* BeastsViewController.swift */; };
+		84371BB826E06FC700F8F8F1 /* BeastsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84371BB726E06FC700F8F8F1 /* BeastsDetailViewController.swift */; };
 		844D6E9726E06AEF00D5004F /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D6E9626E06AEF00D5004F /* MainController.swift */; };
 		846525A826E065E4005F3081 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846525A526E065E4005F3081 /* Quiz.storyboard */; };
 		846525AA26E065E4005F3081 /* Hat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846525A726E065E4005F3081 /* Hat.storyboard */; };
 		846525B126E0668F005F3081 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525AC26E0668F005F3081 /* QuizViewController.swift */; };
-		846525B226E0668F005F3081 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525AD26E0668F005F3081 /* QuestionsViewController.swift */; };
 		846525B326E0668F005F3081 /* HatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525AE26E0668F005F3081 /* HatViewController.swift */; };
 		846525B626E066B7005F3081 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525B526E066B7005F3081 /* Character.swift */; };
-		846525B926E06745005F3081 /* AnimaisCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846525B726E06745005F3081 /* AnimaisCell.xib */; };
-		846525BA26E06745005F3081 /* AnimaisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525B826E06745005F3081 /* AnimaisCell.swift */; };
+		846525B926E06745005F3081 /* BeastTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846525B726E06745005F3081 /* BeastTableCell.xib */; };
+		846525BA26E06745005F3081 /* BeastTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525B826E06745005F3081 /* BeastTableCell.swift */; };
 		B4094B1E26E035200036993E /* Personagens.json in Resources */ = {isa = PBXBuildFile; fileRef = B4094B1D26E035200036993E /* Personagens.json */; };
 		B426F0BF26F4172A003CC921 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B426F0BE26F4172A003CC921 /* GoogleService-Info.plist */; };
 		B4B2BD0C26F6B2890076B808 /* Beasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2BD0B26F6B2890076B808 /* Beasts.swift */; };
@@ -41,6 +40,11 @@
 		B4DED79126D30892004468F1 /* HogwartsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED79026D30892004468F1 /* HogwartsAppUITests.swift */; };
 		B4DED7A326D31026004468F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED7A226D31026004468F1 /* LoginViewController.swift */; };
 		B4DED7A526D3103B004468F1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED7A426D3103B004468F1 /* SignInViewController.swift */; };
+		B4E9F7D126F782BC00C0615A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9F7D026F782BC00C0615A /* GradientView.swift */; };
+		B4E9F7D426F7977F00C0615A /* ButtonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9F7D326F7977F00C0615A /* ButtonGradient.swift */; };
+		B4E9F7D726F7A28000C0615A /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9F7D626F7A28000C0615A /* FavoritesViewController.swift */; };
+		B4E9F7DB26F7A36800C0615A /* ButtonCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9F7D926F7A36800C0615A /* ButtonCollectionCell.swift */; };
+		B4E9F7DC26F7A36800C0615A /* ButtonCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E9F7DA26F7A36800C0615A /* ButtonCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,17 +71,16 @@
 		6578B83B26DC4230000A1F23 /* PersonagensCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonagensCell.xib; sourceTree = "<group>"; };
 		65BB589526DC4A8A00295754 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		65BB589726DC4E4100295754 /* CharactersDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersDetailViewController.swift; sourceTree = "<group>"; };
-		84371BB326E06F3A00F8F8F1 /* AnimalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsViewController.swift; sourceTree = "<group>"; };
-		84371BB726E06FC700F8F8F1 /* DetailsAnimalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsAnimalsViewController.swift; sourceTree = "<group>"; };
+		84371BB326E06F3A00F8F8F1 /* BeastsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastsViewController.swift; sourceTree = "<group>"; };
+		84371BB726E06FC700F8F8F1 /* BeastsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastsDetailViewController.swift; sourceTree = "<group>"; };
 		844D6E9626E06AEF00D5004F /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		846525A526E065E4005F3081 /* Quiz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
 		846525A726E065E4005F3081 /* Hat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hat.storyboard; sourceTree = "<group>"; };
 		846525AC26E0668F005F3081 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
-		846525AD26E0668F005F3081 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		846525AE26E0668F005F3081 /* HatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HatViewController.swift; sourceTree = "<group>"; };
 		846525B526E066B7005F3081 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		846525B726E06745005F3081 /* AnimaisCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimaisCell.xib; sourceTree = "<group>"; };
-		846525B826E06745005F3081 /* AnimaisCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimaisCell.swift; sourceTree = "<group>"; };
+		846525B726E06745005F3081 /* BeastTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeastTableCell.xib; sourceTree = "<group>"; };
+		846525B826E06745005F3081 /* BeastTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastTableCell.swift; sourceTree = "<group>"; };
 		93775683ECDB15FABF55BFEE /* Pods_HogwartsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogwartsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2BF656178DE9DD7F296A35A /* Pods-HogwartsApp-HogwartsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp-HogwartsAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HogwartsApp-HogwartsAppUITests/Pods-HogwartsApp-HogwartsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A8AF7535B95315526E5F2DC2 /* Pods_HogwartsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogwartsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +108,11 @@
 		B4DED79226D30892004468F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DED7A226D31026004468F1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B4DED7A426D3103B004468F1 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B4E9F7D026F782BC00C0615A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B4E9F7D326F7977F00C0615A /* ButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGradient.swift; sourceTree = "<group>"; };
+		B4E9F7D626F7A28000C0615A /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		B4E9F7D926F7A36800C0615A /* ButtonCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCollectionCell.swift; sourceTree = "<group>"; };
+		B4E9F7DA26F7A36800C0615A /* ButtonCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCollectionCell.xib; sourceTree = "<group>"; };
 		B9A346303595212451011BB6 /* Pods-HogwartsApp-HogwartsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp-HogwartsAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HogwartsApp-HogwartsAppUITests/Pods-HogwartsApp-HogwartsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C75C1AF035EB663534F18041 /* Pods_HogwartsApp_HogwartsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogwartsApp_HogwartsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E389840291CE9709AA6FC8 /* Pods-HogwartsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp.debug.xcconfig"; path = "Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -165,8 +173,8 @@
 		B47EC9F126F4203700EA78BF /* Animals Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
-				846525B726E06745005F3081 /* AnimaisCell.xib */,
-				846525B826E06745005F3081 /* AnimaisCell.swift */,
+				846525B726E06745005F3081 /* BeastTableCell.xib */,
+				846525B826E06745005F3081 /* BeastTableCell.swift */,
 			);
 			path = "Animals Custom Cell";
 			sourceTree = "<group>";
@@ -192,8 +200,8 @@
 		B4B2BD1126F6BB990076B808 /* Beasts */ = {
 			isa = PBXGroup;
 			children = (
-				84371BB326E06F3A00F8F8F1 /* AnimalsViewController.swift */,
-				84371BB726E06FC700F8F8F1 /* DetailsAnimalsViewController.swift */,
+				84371BB326E06F3A00F8F8F1 /* BeastsViewController.swift */,
+				84371BB726E06FC700F8F8F1 /* BeastsDetailViewController.swift */,
 				B47EC9F126F4203700EA78BF /* Animals Custom Cell */,
 			);
 			path = Beasts;
@@ -212,6 +220,7 @@
 		B4B2BD1326F6BC4C0076B808 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B4E9F7D826F7A32500C0615A /* Custom Button */,
 				65509A1126D8A0CB0039C1CB /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -230,7 +239,6 @@
 			isa = PBXGroup;
 			children = (
 				846525AC26E0668F005F3081 /* QuizViewController.swift */,
-				846525AD26E0668F005F3081 /* QuestionsViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -272,6 +280,8 @@
 				B4DED7A026D308E3004468F1 /* Model */,
 				B4DED79F26D308DB004468F1 /* View */,
 				B4DED79E26D308D2004468F1 /* Controller */,
+				B4E9F7D226F7966000C0615A /* Helpers */,
+				B4DED7A126D308EB004468F1 /* Storyboards */,
 				B4DED76E26D3088E004468F1 /* AppDelegate.swift */,
 				B4DED77026D3088E004468F1 /* SceneDelegate.swift */,
 				B4DED77726D30891004468F1 /* Assets.xcassets */,
@@ -312,6 +322,7 @@
 		B4DED79F26D308DB004468F1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B4E9F7D526F7A26200C0615A /* User */,
 				B4B2BD1626F6BC990076B808 /* Hat */,
 				B4B2BD1526F6BC8A0076B808 /* Quiz */,
 				B4B2BD1426F6BC650076B808 /* Login e SignIn */,
@@ -319,7 +330,6 @@
 				B4B2BD1226F6BBC40076B808 /* Characters */,
 				B4B2BD1126F6BB990076B808 /* Beasts */,
 				B4DED77226D3088E004468F1 /* MainViewController.swift */,
-				B4DED7A126D308EB004468F1 /* Storyboards */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -343,6 +353,32 @@
 				B4B2BD1926F6C0F70076B808 /* Beasts.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B4E9F7D226F7966000C0615A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B4E9F7D026F782BC00C0615A /* GradientView.swift */,
+				B4E9F7D326F7977F00C0615A /* ButtonGradient.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B4E9F7D526F7A26200C0615A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B4E9F7D626F7A28000C0615A /* FavoritesViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		B4E9F7D826F7A32500C0615A /* Custom Button */ = {
+			isa = PBXGroup;
+			children = (
+				B4E9F7D926F7A36800C0615A /* ButtonCollectionCell.swift */,
+				B4E9F7DA26F7A36800C0615A /* ButtonCollectionCell.xib */,
+			);
+			path = "Custom Button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -454,9 +490,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E9F7DC26F7A36800C0615A /* ButtonCollectionCell.xib in Resources */,
 				846525A826E065E4005F3081 /* Quiz.storyboard in Resources */,
 				846525AA26E065E4005F3081 /* Hat.storyboard in Resources */,
-				846525B926E06745005F3081 /* AnimaisCell.xib in Resources */,
+				846525B926E06745005F3081 /* BeastTableCell.xib in Resources */,
 				B4B2BD0E26F6B32D0076B808 /* Beasts.json in Resources */,
 				B4B2BD1826F6C0E50076B808 /* Characters.storyboard in Resources */,
 				B4094B1E26E035200036993E /* Personagens.json in Resources */,
@@ -611,23 +648,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				65BB589826DC4E4100295754 /* CharactersDetailViewController.swift in Sources */,
-				846525B226E0668F005F3081 /* QuestionsViewController.swift in Sources */,
+				B4E9F7D126F782BC00C0615A /* GradientView.swift in Sources */,
 				844D6E9726E06AEF00D5004F /* MainController.swift in Sources */,
 				B4B2BD0C26F6B2890076B808 /* Beasts.swift in Sources */,
 				B4DED7A326D31026004468F1 /* LoginViewController.swift in Sources */,
-				84371BB826E06FC700F8F8F1 /* DetailsAnimalsViewController.swift in Sources */,
+				B4E9F7D726F7A28000C0615A /* FavoritesViewController.swift in Sources */,
+				84371BB826E06FC700F8F8F1 /* BeastsDetailViewController.swift in Sources */,
 				B4DED77326D3088E004468F1 /* MainViewController.swift in Sources */,
 				6578B83C26DC4230000A1F23 /* PersonagensCell.swift in Sources */,
 				B4DED76F26D3088E004468F1 /* AppDelegate.swift in Sources */,
 				65509A1226D8A0CC0039C1CB /* HomeViewController.swift in Sources */,
 				846525B126E0668F005F3081 /* QuizViewController.swift in Sources */,
 				B4DED7A526D3103B004468F1 /* SignInViewController.swift in Sources */,
+				B4E9F7DB26F7A36800C0615A /* ButtonCollectionCell.swift in Sources */,
 				B4B2BD1026F6B42D0076B808 /* BeastsController.swift in Sources */,
+				B4E9F7D426F7977F00C0615A /* ButtonGradient.swift in Sources */,
 				846525B326E0668F005F3081 /* HatViewController.swift in Sources */,
 				846525B626E066B7005F3081 /* Character.swift in Sources */,
 				65BB589626DC4A8A00295754 /* CharactersViewController.swift in Sources */,
-				846525BA26E06745005F3081 /* AnimaisCell.swift in Sources */,
-				84371BB626E06F3A00F8F8F1 /* AnimalsViewController.swift in Sources */,
+				846525BA26E06745005F3081 /* BeastTableCell.swift in Sources */,
+				84371BB626E06F3A00F8F8F1 /* BeastsViewController.swift in Sources */,
 				B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

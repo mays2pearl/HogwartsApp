@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Beasts View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="BeastsViewController" id="Y6W-OH-hqX" customClass="BeastsViewController" customModule="HogwartsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vLp-hO-lV5" customClass="GradientView" customModule="HogwartsApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animais Fantásticos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Xj-Cg-9Wn">
+                                        <rect key="frame" x="20" y="30" width="374" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="Gb2-Ba-IMJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Thonburi-Bold" family="Thonburi" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <searchBar contentMode="redraw" placeholder="BUSCA" showsSearchResultsButton="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sjI-iU-9Xi">
+                                        <rect key="frame" x="0.0" y="80" width="414" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="yEo-DI-Sko"/>
+                                        </constraints>
+                                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </searchBar>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zjs-oH-Dnl">
+                                        <rect key="frame" x="0.0" y="133" width="414" height="685"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="sjI-iU-9Xi" firstAttribute="leading" secondItem="vLp-hO-lV5" secondAttribute="leading" id="11O-bZ-Fh0"/>
+                                    <constraint firstItem="2Xj-Cg-9Wn" firstAttribute="top" secondItem="vLp-hO-lV5" secondAttribute="top" constant="30" id="75d-x2-uJd"/>
+                                    <constraint firstAttribute="trailing" secondItem="zjs-oH-Dnl" secondAttribute="trailing" id="Afl-lL-Rtg"/>
+                                    <constraint firstItem="zjs-oH-Dnl" firstAttribute="leading" secondItem="vLp-hO-lV5" secondAttribute="leading" id="HXd-V0-Xt2"/>
+                                    <constraint firstItem="zjs-oH-Dnl" firstAttribute="top" secondItem="sjI-iU-9Xi" secondAttribute="bottom" constant="5" id="LHX-cZ-xzP"/>
+                                    <constraint firstAttribute="trailing" secondItem="sjI-iU-9Xi" secondAttribute="trailing" id="SaQ-N7-ZJq"/>
+                                    <constraint firstItem="2Xj-Cg-9Wn" firstAttribute="leading" secondItem="vLp-hO-lV5" secondAttribute="leading" constant="20" id="U0W-4t-Ndd"/>
+                                    <constraint firstItem="sjI-iU-9Xi" firstAttribute="top" secondItem="2Xj-Cg-9Wn" secondAttribute="bottom" constant="5" id="YiU-4h-kDe"/>
+                                    <constraint firstAttribute="bottom" secondItem="zjs-oH-Dnl" secondAttribute="bottom" id="ufg-BZ-3PV"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Xj-Cg-9Wn" secondAttribute="trailing" constant="20" id="wpO-HY-u0X"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondColor">
+                                        <color key="value" red="0.073130656759999996" green="0.073130656759999996" blue="0.073130656759999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vLp-hO-lV5" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="0Oj-Hl-cjY"/>
+                            <constraint firstItem="vLp-hO-lV5" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="3Vm-Ch-E1q"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="vLp-hO-lV5" secondAttribute="trailing" id="Hxj-an-La1"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="vLp-hO-lV5" secondAttribute="bottom" id="TvH-u2-0Xn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="beastsTableView" destination="zjs-oH-Dnl" id="uYq-Lg-Z5E"/>
+                        <outlet property="search" destination="sjI-iU-9Xi" id="BQc-gw-whU"/>
+                        <outlet property="titleLabel" destination="2Xj-Cg-9Wn" id="yna-EZ-jfr"/>
+                        <outlet property="viewMain" destination="vLp-hO-lV5" id="IZ4-kA-rBf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="83"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

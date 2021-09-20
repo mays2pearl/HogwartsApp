@@ -1,4 +1,6 @@
-{"beasts": [{
+{
+    "beasts": [
+        {
     "name": "Agoureiro",
     "avatar": "Agoureiro",
     "characteristics": "Agoureiro (em inglês: Augurey), Também conhecida como Fênix Irlandesa. é uma espécie nativa da Grã-Bretanha e da Irlanda, embora por vezes seja encontrado em outros países do norte europeu. Pássaro magro e de aspecto tristonho, que lembra um abutre pequeno e malnutrido, o agoureiro é preto-esverdeado. É extremamente tímido, faz ninho em moitas espinhosas, come grandes insetos e fadas, só voa sob chuva pesada e, no restante do tempo, fica escondido em seu ninho em feitio de lágrima.O agoureiro tem um canto baixo e soluçante característico, que antigamente se acreditava anunciar a morte. Os bruxos evitavam os ninhos de agoureiro com medo de ouvir esse som de partir o coração, e acredita-se que mais de um bruxo sofreu um ataque cardíaco ao passar por uma moita e ouvir o lamento de um agoureiro escondido. Com o tempo, porém, pesquisas pacientes revelaram que esse pássaro simplesmente anuncia a aproximação da chuva. Desde então, ele entrou na moda como barômetro caseiro, embora haja quem ache difícil aturar o seu lamento contínuo durante os meses de inverno. As penas do agoureiro não servem para fazer canetas porque repelem a tinta."
@@ -127,7 +129,9 @@
     "avatar":"Sereia"
     "characteristics":"As sereias foram a primeira subespécie registrada dos sereianos. Elas viviam na Grécia antiga. Assim como a maioria dos sereianos de água morna, sereias eram excepcionalmente belas se comparadas aos sereianos de água fria como como Selkies e Merrows. Acredita-se que essas sereias usavam seu canto para atrair marinheiros descuidados à água, como contam as lendas trouxas.O primeiro grande dilema do mundo bruxo em relação aos animais era dividir o que era “ser” e o que era, de fato, um animal. A primeira tentativa foi no século XIV, quando o Conselho Bruxo definiu como “ser” todo membro da comunidade mágica que caminhasse em duas pernas. Isso deu uma tremenda confusão, pois o salão de encontro lotou de criaturas bípedes que não estavam tão interessadas nas regras do governo bruxo. A segunda tentativa foi a declaração de Madame Elfrida, que definiu como ser todo membro capaz de falar a língua humana. Os centauros, que outrora foram considerados animais, agora eram seres, mas se recusaram a comparecer ao conselho como protesto, pois como os sereianos tinham uma linguagem própria, o serêiaco, ainda se encontravam na categoria de animais. Somente em 1811 que o Ministro da Magia definiu como ser toda criatura dotada de inteligência. Contudo, os sereianos rejeitaram essa condição e decidiram que administrariam seus negócios independentemente dos bruxos.  Por esse motivo, seus hábitos e costumes são um mistério, embora eles saibam que existam comunidades organizadas."
     }
-]
+    
+    ]
+    
 }
 
 

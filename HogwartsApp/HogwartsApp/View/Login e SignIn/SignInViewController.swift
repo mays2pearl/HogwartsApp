@@ -30,11 +30,13 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.sigInButton.layer.cornerRadius = sigInButton.layer.frame.height / 2
+        self.sigInButton.layer.borderWidth = 1
     }
     
     @IBAction func tappedSignInButton(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: "PersonagensEAnimais", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "HomeController") as! HomeViewController
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
         vc.modalPresentationStyle = .overFullScreen

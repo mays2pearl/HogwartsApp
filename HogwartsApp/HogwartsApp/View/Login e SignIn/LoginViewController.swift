@@ -21,15 +21,38 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.loginButton.layer.cornerRadius = loginButton.layer.frame.height / 2
+        self.loginButton.layer.borderWidth = 1
     }
     
     @IBAction func tappedLoginButton(_ sender: UIButton) {
-        let storyboard = UIStoryboard(name: "PersonagensEAnimais", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "HomeController") as! HomeViewController
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
         vc.providesPresentationContextTransitionStyle = true
         vc.definesPresentationContext = true
-        vc.modalPresentationStyle = .overFullScreen
+        vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true, completion: nil)
         
     }
+    
+//    fileprivate func validateForm() -> Bool {
+//            if emailTextField.text!.isEmpty ||
+//                !emailTextField.text!.contains(".") ||
+//                !emailTextField.text!.contains("@") ||
+//                emailTextField.text!.count <= 5 {
+//                self.heightLabelError.constant = 20
+//                self.setErrorLogin("Verifique o e-mail informado")
+//                return false
+//            }
+//
+//            if passwordTextField.text!.isEmpty ||
+//                passwordTextField.text!.count < 5 {
+//                self.heightLabelError.constant = 20
+//                self.setErrorLogin("Verifique a senha informada")
+//                return false
+//            }
+//
+//            return true
+//        }
 }

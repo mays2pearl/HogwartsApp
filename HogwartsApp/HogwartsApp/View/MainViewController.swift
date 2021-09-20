@@ -17,24 +17,27 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let newLayer = CAGradientLayer()
-        newLayer.colors = [UIColor.black.cgColor, UIColor.black.cgColor, UIColor.darkGray.cgColor]
-        newLayer.frame = self.viewMain.frame
-//        newLayer.startPoint = CGPoint(x: 0, y: 0)
-//        newLayer.endPoint = CGPoint(x: 1, y: 1)
+        self.loginButton.layer.cornerRadius = loginButton.layer.frame.height / 2
+        self.loginButton.layer.borderWidth = 1
         
-        self.viewMain.layer.addSublayer(newLayer)
         }
 
     @IBAction func tappedLoginButton(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        vc.providesPresentationContextTransitionStyle = true
+        vc.definesPresentationContext = true
+        vc.modalPresentationStyle = .automatic
+        self.present(vc, animated: true, completion: nil)
     }
 
     @IBAction func tappedSignInButton(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "SignInViewController") as! SignInViewController
+        vc.providesPresentationContextTransitionStyle = true
+        vc.definesPresentationContext = true
+        vc.modalPresentationStyle = .automatic
+        self.present(vc, animated: true, completion: nil)
     }
-    
-//    @IBAction func crashButtonTapped(_ sender: AnyObject) {
-//          let numbers = [0]
-//          let _ = numbers[1]
-//      }
 }
 
