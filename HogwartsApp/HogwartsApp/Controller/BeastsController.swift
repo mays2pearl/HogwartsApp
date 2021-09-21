@@ -31,10 +31,8 @@ class BeastsController {
         return self.arrayBeasts[indexPath.row].name ?? ""
     }
     
-    func loadBeasts(completionHandler: (_ result: Bool, _ error: Error?) -> Void) {
-        
+    func loadBeasts() {
         if let path = Bundle.main.path(forResource: "Beasts", ofType: "json"){
-            
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
                 
@@ -46,9 +44,9 @@ class BeastsController {
                         self.arrayBeasts.append(Beasts.init(dictionary: value))
                     }
                 }
-                completionHandler(true, nil)
+                delegate?.success()
             } catch {
-                completionHandler(false, error)
+                delegate?.failed(error: error)
             }
         }
     }

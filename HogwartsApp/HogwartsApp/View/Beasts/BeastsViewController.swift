@@ -23,13 +23,7 @@ class BeastsViewController: UIViewController {
         self.beastsTableView.delegate = self
         self.beastsTableView.dataSource = self
         
-        self.controller.loadBeasts { success, error in
-            if success {
-                self.beastsTableView.reloadData()
-            } else {
-                print(error)
-            }
-        }
+        self.controller.loadBeasts()
 
         // Do any additional setup after loading the view.
     }
@@ -46,7 +40,7 @@ extension BeastsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: BeastTableCell? = tableView.dequeueReusableCell(withIdentifier: "BeastTableCell", for: indexPath) as? BeastTableCell
         
-        cell?.setup(value: self.controller.loadCurrentBeast(indexPath: [indexPath.row]))
+        cell?.setup(value: self.controller.loadCurrentBeast(indexPath: indexPath))
         
         return cell ?? UITableViewCell()
     }

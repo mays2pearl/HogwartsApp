@@ -27,8 +27,8 @@
 		B4094B1E26E035200036993E /* Personagens.json in Resources */ = {isa = PBXBuildFile; fileRef = B4094B1D26E035200036993E /* Personagens.json */; };
 		B426F0BF26F4172A003CC921 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B426F0BE26F4172A003CC921 /* GoogleService-Info.plist */; };
 		B446329D26F8175C0041781B /* defaultLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446329C26F8175C0041781B /* defaultLinks.swift */; };
+		B45745AE26F9599400562A32 /* Beasts.json in Resources */ = {isa = PBXBuildFile; fileRef = B45745AD26F9599300562A32 /* Beasts.json */; };
 		B4B2BD0C26F6B2890076B808 /* Beasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2BD0B26F6B2890076B808 /* Beasts.swift */; };
-		B4B2BD0E26F6B32D0076B808 /* Beasts.json in Resources */ = {isa = PBXBuildFile; fileRef = B4B2BD0D26F6B32D0076B808 /* Beasts.json */; };
 		B4B2BD1026F6B42D0076B808 /* BeastsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2BD0F26F6B42D0076B808 /* BeastsController.swift */; };
 		B4B2BD1826F6C0E50076B808 /* Characters.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B2BD1726F6C0E50076B808 /* Characters.storyboard */; };
 		B4B2BD1A26F6C0F70076B808 /* Beasts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B2BD1926F6C0F70076B808 /* Beasts.storyboard */; };
@@ -89,8 +89,8 @@
 		B4094B1D26E035200036993E /* Personagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Personagens.json; path = HogwartsApp/Mock/Personagens.json; sourceTree = SOURCE_ROOT; };
 		B426F0BE26F4172A003CC921 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B446329C26F8175C0041781B /* defaultLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaultLinks.swift; sourceTree = "<group>"; };
+		B45745AD26F9599300562A32 /* Beasts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Beasts.json; sourceTree = "<group>"; };
 		B4B2BD0B26F6B2890076B808 /* Beasts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beasts.swift; sourceTree = "<group>"; };
-		B4B2BD0D26F6B32D0076B808 /* Beasts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Beasts.json; sourceTree = "<group>"; };
 		B4B2BD0F26F6B42D0076B808 /* BeastsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastsController.swift; sourceTree = "<group>"; };
 		B4B2BD1726F6C0E50076B808 /* Characters.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Characters.storyboard; sourceTree = "<group>"; };
 		B4B2BD1926F6C0F70076B808 /* Beasts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Beasts.storyboard; sourceTree = "<group>"; };
@@ -193,8 +193,8 @@
 		B48C856626D31E0800F5A9E2 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
-				B4B2BD0D26F6B32D0076B808 /* Beasts.json */,
 				B4094B1D26E035200036993E /* Personagens.json */,
+				B45745AD26F9599300562A32 /* Beasts.json */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -497,7 +497,7 @@
 				846525A826E065E4005F3081 /* Quiz.storyboard in Resources */,
 				846525AA26E065E4005F3081 /* Hat.storyboard in Resources */,
 				846525B926E06745005F3081 /* BeastTableCell.xib in Resources */,
-				B4B2BD0E26F6B32D0076B808 /* Beasts.json in Resources */,
+				B45745AE26F9599400562A32 /* Beasts.json in Resources */,
 				B4B2BD1826F6C0E50076B808 /* Characters.storyboard in Resources */,
 				B4094B1E26E035200036993E /* Personagens.json in Resources */,
 				B426F0BF26F4172A003CC921 /* GoogleService-Info.plist in Resources */,
