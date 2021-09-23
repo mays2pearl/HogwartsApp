@@ -3,28 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65509A1226D8A0CC0039C1CB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65509A1126D8A0CB0039C1CB /* HomeController.swift */; };
+		03679E80E10A4FFA323D871F /* Pods_HogwartsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93775683ECDB15FABF55BFEE /* Pods_HogwartsAppTests.framework */; };
+		0A22E22D249DD1F7800BE912 /* Pods_HogwartsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AF7535B95315526E5F2DC2 /* Pods_HogwartsApp.framework */; };
+		0CE1D9A162183270F070757E /* Pods_HogwartsApp_HogwartsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75C1AF035EB663534F18041 /* Pods_HogwartsApp_HogwartsAppUITests.framework */; };
+		65509A1226D8A0CC0039C1CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65509A1126D8A0CB0039C1CB /* HomeViewController.swift */; };
 		6578B83C26DC4230000A1F23 /* PersonagensCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578B83A26DC4230000A1F23 /* PersonagensCell.swift */; };
-		65BB589626DC4A8A00295754 /* PersonagensController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB589526DC4A8A00295754 /* PersonagensController.swift */; };
-		65BB589826DC4E4100295754 /* DetailsPersonagensController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB589726DC4E4100295754 /* DetailsPersonagensController.swift */; };
-		84371BB026E06ED300F8F8F1 /* PersonagensCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84371BAF26E06ED300F8F8F1 /* PersonagensCell.xib */; };
-		84371BB626E06F3A00F8F8F1 /* AnimaisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84371BB326E06F3A00F8F8F1 /* AnimaisController.swift */; };
-		84371BB826E06FC700F8F8F1 /* DetailsAnimaisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84371BB726E06FC700F8F8F1 /* DetailsAnimaisController.swift */; };
-		844D6E9726E06AEF00D5004F /* classeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D6E9626E06AEF00D5004F /* classeControl.swift */; };
+		65BB589626DC4A8A00295754 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB589526DC4A8A00295754 /* CharactersViewController.swift */; };
+		65BB589826DC4E4100295754 /* CharactersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BB589726DC4E4100295754 /* CharactersDetailViewController.swift */; };
+		84371BB626E06F3A00F8F8F1 /* BeastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84371BB326E06F3A00F8F8F1 /* BeastsViewController.swift */; };
+		84371BB826E06FC700F8F8F1 /* BeastsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84371BB726E06FC700F8F8F1 /* BeastsDetailViewController.swift */; };
+		844D6E9726E06AEF00D5004F /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D6E9626E06AEF00D5004F /* MainController.swift */; };
 		846525A826E065E4005F3081 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846525A526E065E4005F3081 /* Quiz.storyboard */; };
+<<<<<<< HEAD
 		846525A926E065E4005F3081 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846525A626E065E4005F3081 /* User.storyboard */; };
+=======
+		846525AA26E065E4005F3081 /* Hat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846525A726E065E4005F3081 /* Hat.storyboard */; };
+>>>>>>> 425ee022f90551ca19ece6bec37afe94b8d07e4c
 		846525B126E0668F005F3081 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525AC26E0668F005F3081 /* QuizViewController.swift */; };
-		846525B226E0668F005F3081 /* QuizViewControllerQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525AD26E0668F005F3081 /* QuizViewControllerQuestions.swift */; };
-		846525B326E0668F005F3081 /* hatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525AE26E0668F005F3081 /* hatViewController.swift */; };
+		846525B326E0668F005F3081 /* HatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525AE26E0668F005F3081 /* HatViewController.swift */; };
 		846525B626E066B7005F3081 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525B526E066B7005F3081 /* Character.swift */; };
-		846525B926E06745005F3081 /* AnimaisCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846525B726E06745005F3081 /* AnimaisCell.xib */; };
-		846525BA26E06745005F3081 /* AnimaisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525B826E06745005F3081 /* AnimaisCell.swift */; };
-		846525C026E068E2005F3081 /* PersonagensEAnimais.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846525BF26E068E2005F3081 /* PersonagensEAnimais.storyboard */; };
+		846525B926E06745005F3081 /* BeastTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846525B726E06745005F3081 /* BeastTableCell.xib */; };
+		846525BA26E06745005F3081 /* BeastTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846525B826E06745005F3081 /* BeastTableCell.swift */; };
 		B4094B1E26E035200036993E /* Personagens.json in Resources */ = {isa = PBXBuildFile; fileRef = B4094B1D26E035200036993E /* Personagens.json */; };
+		B426F0BF26F4172A003CC921 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B426F0BE26F4172A003CC921 /* GoogleService-Info.plist */; };
+		B446329D26F8175C0041781B /* defaultLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446329C26F8175C0041781B /* defaultLinks.swift */; };
+		B45745AE26F9599400562A32 /* Beasts.json in Resources */ = {isa = PBXBuildFile; fileRef = B45745AD26F9599300562A32 /* Beasts.json */; };
+		B4B2BD0C26F6B2890076B808 /* Beasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2BD0B26F6B2890076B808 /* Beasts.swift */; };
+		B4B2BD1026F6B42D0076B808 /* BeastsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B2BD0F26F6B42D0076B808 /* BeastsController.swift */; };
+		B4B2BD1826F6C0E50076B808 /* Characters.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B2BD1726F6C0E50076B808 /* Characters.storyboard */; };
+		B4B2BD1A26F6C0F70076B808 /* Beasts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B2BD1926F6C0F70076B808 /* Beasts.storyboard */; };
 		B4DED76F26D3088E004468F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED76E26D3088E004468F1 /* AppDelegate.swift */; };
 		B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED77026D3088E004468F1 /* SceneDelegate.swift */; };
 		B4DED77326D3088E004468F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED77226D3088E004468F1 /* MainViewController.swift */; };
@@ -34,6 +45,11 @@
 		B4DED79126D30892004468F1 /* HogwartsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED79026D30892004468F1 /* HogwartsAppUITests.swift */; };
 		B4DED7A326D31026004468F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED7A226D31026004468F1 /* LoginViewController.swift */; };
 		B4DED7A526D3103B004468F1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DED7A426D3103B004468F1 /* SignInViewController.swift */; };
+		B4E9F7D126F782BC00C0615A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9F7D026F782BC00C0615A /* GradientView.swift */; };
+		B4E9F7D426F7977F00C0615A /* ButtonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9F7D326F7977F00C0615A /* ButtonGradient.swift */; };
+		B4E9F7D726F7A28000C0615A /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9F7D626F7A28000C0615A /* FavoritesViewController.swift */; };
+		B4E9F7DB26F7A36800C0615A /* ButtonCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E9F7D926F7A36800C0615A /* ButtonCollectionCell.swift */; };
+		B4E9F7DC26F7A36800C0615A /* ButtonCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E9F7DA26F7A36800C0615A /* ButtonCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,25 +70,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		65509A1126D8A0CB0039C1CB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		294E861D68FB1445734ADE35 /* Pods-HogwartsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp.release.xcconfig"; path = "Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp.release.xcconfig"; sourceTree = "<group>"; };
+		65509A1126D8A0CB0039C1CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6578B83A26DC4230000A1F23 /* PersonagensCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonagensCell.swift; sourceTree = "<group>"; };
 		6578B83B26DC4230000A1F23 /* PersonagensCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonagensCell.xib; sourceTree = "<group>"; };
-		65BB589526DC4A8A00295754 /* PersonagensController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonagensController.swift; sourceTree = "<group>"; };
-		65BB589726DC4E4100295754 /* DetailsPersonagensController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPersonagensController.swift; sourceTree = "<group>"; };
-		84371BAF26E06ED300F8F8F1 /* PersonagensCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonagensCell.xib; sourceTree = "<group>"; };
-		84371BB326E06F3A00F8F8F1 /* AnimaisController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimaisController.swift; sourceTree = "<group>"; };
-		84371BB726E06FC700F8F8F1 /* DetailsAnimaisController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsAnimaisController.swift; sourceTree = "<group>"; };
-		844D6E9626E06AEF00D5004F /* classeControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classeControl.swift; sourceTree = "<group>"; };
+		65BB589526DC4A8A00295754 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		65BB589726DC4E4100295754 /* CharactersDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersDetailViewController.swift; sourceTree = "<group>"; };
+		84371BB326E06F3A00F8F8F1 /* BeastsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastsViewController.swift; sourceTree = "<group>"; };
+		84371BB726E06FC700F8F8F1 /* BeastsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastsDetailViewController.swift; sourceTree = "<group>"; };
+		844D6E9626E06AEF00D5004F /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		846525A526E065E4005F3081 /* Quiz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		846525A626E065E4005F3081 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+=======
+		846525A726E065E4005F3081 /* Hat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hat.storyboard; sourceTree = "<group>"; };
+>>>>>>> 425ee022f90551ca19ece6bec37afe94b8d07e4c
 		846525AC26E0668F005F3081 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
-		846525AD26E0668F005F3081 /* QuizViewControllerQuestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewControllerQuestions.swift; sourceTree = "<group>"; };
-		846525AE26E0668F005F3081 /* hatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hatViewController.swift; sourceTree = "<group>"; };
+		846525AE26E0668F005F3081 /* HatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HatViewController.swift; sourceTree = "<group>"; };
 		846525B526E066B7005F3081 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		846525B726E06745005F3081 /* AnimaisCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimaisCell.xib; sourceTree = "<group>"; };
-		846525B826E06745005F3081 /* AnimaisCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimaisCell.swift; sourceTree = "<group>"; };
-		846525BF26E068E2005F3081 /* PersonagensEAnimais.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PersonagensEAnimais.storyboard; sourceTree = "<group>"; };
+		846525B726E06745005F3081 /* BeastTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeastTableCell.xib; sourceTree = "<group>"; };
+		846525B826E06745005F3081 /* BeastTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastTableCell.swift; sourceTree = "<group>"; };
+		93775683ECDB15FABF55BFEE /* Pods_HogwartsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogwartsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2BF656178DE9DD7F296A35A /* Pods-HogwartsApp-HogwartsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp-HogwartsAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HogwartsApp-HogwartsAppUITests/Pods-HogwartsApp-HogwartsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8AF7535B95315526E5F2DC2 /* Pods_HogwartsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogwartsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7F80FFDA375A2225417005 /* Pods-HogwartsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HogwartsAppTests/Pods-HogwartsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B4094B1D26E035200036993E /* Personagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Personagens.json; path = HogwartsApp/Mock/Personagens.json; sourceTree = SOURCE_ROOT; };
+		B426F0BE26F4172A003CC921 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B446329C26F8175C0041781B /* defaultLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaultLinks.swift; sourceTree = "<group>"; };
+		B45745AD26F9599300562A32 /* Beasts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Beasts.json; sourceTree = "<group>"; };
+		B4B2BD0B26F6B2890076B808 /* Beasts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beasts.swift; sourceTree = "<group>"; };
+		B4B2BD0F26F6B42D0076B808 /* BeastsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeastsController.swift; sourceTree = "<group>"; };
+		B4B2BD1726F6C0E50076B808 /* Characters.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Characters.storyboard; sourceTree = "<group>"; };
+		B4B2BD1926F6C0F70076B808 /* Beasts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Beasts.storyboard; sourceTree = "<group>"; };
 		B4DED76B26D3088E004468F1 /* HogwartsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogwartsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DED76E26D3088E004468F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4DED77026D3088E004468F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +118,15 @@
 		B4DED79226D30892004468F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4DED7A226D31026004468F1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B4DED7A426D3103B004468F1 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B4E9F7D026F782BC00C0615A /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B4E9F7D326F7977F00C0615A /* ButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGradient.swift; sourceTree = "<group>"; };
+		B4E9F7D626F7A28000C0615A /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		B4E9F7D926F7A36800C0615A /* ButtonCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCollectionCell.swift; sourceTree = "<group>"; };
+		B4E9F7DA26F7A36800C0615A /* ButtonCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCollectionCell.xib; sourceTree = "<group>"; };
+		B9A346303595212451011BB6 /* Pods-HogwartsApp-HogwartsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp-HogwartsAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HogwartsApp-HogwartsAppUITests/Pods-HogwartsApp-HogwartsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C75C1AF035EB663534F18041 /* Pods_HogwartsApp_HogwartsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HogwartsApp_HogwartsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E389840291CE9709AA6FC8 /* Pods-HogwartsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsApp.debug.xcconfig"; path = "Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD07FE76702519EF406A28F /* Pods-HogwartsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HogwartsAppTests.release.xcconfig"; path = "Target Support Files/Pods-HogwartsAppTests/Pods-HogwartsAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A22E22D249DD1F7800BE912 /* Pods_HogwartsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03679E80E10A4FFA323D871F /* Pods_HogwartsAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,18 +150,115 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE1D9A162183270F070757E /* Pods_HogwartsApp_HogwartsAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EC3F2EB7B8C39E489066E4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8E389840291CE9709AA6FC8 /* Pods-HogwartsApp.debug.xcconfig */,
+				294E861D68FB1445734ADE35 /* Pods-HogwartsApp.release.xcconfig */,
+				A2BF656178DE9DD7F296A35A /* Pods-HogwartsApp-HogwartsAppUITests.debug.xcconfig */,
+				B9A346303595212451011BB6 /* Pods-HogwartsApp-HogwartsAppUITests.release.xcconfig */,
+				AA7F80FFDA375A2225417005 /* Pods-HogwartsAppTests.debug.xcconfig */,
+				FDD07FE76702519EF406A28F /* Pods-HogwartsAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A41012D227BCC95A5144D3C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8AF7535B95315526E5F2DC2 /* Pods_HogwartsApp.framework */,
+				C75C1AF035EB663534F18041 /* Pods_HogwartsApp_HogwartsAppUITests.framework */,
+				93775683ECDB15FABF55BFEE /* Pods_HogwartsAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B47EC9F126F4203700EA78BF /* Animals Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				846525B726E06745005F3081 /* BeastTableCell.xib */,
+				846525B826E06745005F3081 /* BeastTableCell.swift */,
+			);
+			path = "Animals Custom Cell";
+			sourceTree = "<group>";
+		};
+		B47EC9F226F4207000EA78BF /* Characters Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6578B83B26DC4230000A1F23 /* PersonagensCell.xib */,
+				6578B83A26DC4230000A1F23 /* PersonagensCell.swift */,
+			);
+			path = "Characters Custom Cell";
+			sourceTree = "<group>";
+		};
 		B48C856626D31E0800F5A9E2 /* Mock */ = {
 			isa = PBXGroup;
 			children = (
 				B4094B1D26E035200036993E /* Personagens.json */,
+				B45745AD26F9599300562A32 /* Beasts.json */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		B4B2BD1126F6BB990076B808 /* Beasts */ = {
+			isa = PBXGroup;
+			children = (
+				84371BB326E06F3A00F8F8F1 /* BeastsViewController.swift */,
+				84371BB726E06FC700F8F8F1 /* BeastsDetailViewController.swift */,
+				B47EC9F126F4203700EA78BF /* Animals Custom Cell */,
+			);
+			path = Beasts;
+			sourceTree = "<group>";
+		};
+		B4B2BD1226F6BBC40076B808 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				65BB589526DC4A8A00295754 /* CharactersViewController.swift */,
+				65BB589726DC4E4100295754 /* CharactersDetailViewController.swift */,
+				B47EC9F226F4207000EA78BF /* Characters Custom Cell */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		B4B2BD1326F6BC4C0076B808 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4E9F7D826F7A32500C0615A /* Custom Button */,
+				65509A1126D8A0CB0039C1CB /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B4B2BD1426F6BC650076B808 /* Login e SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				B4DED7A426D3103B004468F1 /* SignInViewController.swift */,
+				B4DED7A226D31026004468F1 /* LoginViewController.swift */,
+			);
+			path = "Login e SignIn";
+			sourceTree = "<group>";
+		};
+		B4B2BD1526F6BC8A0076B808 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				846525AC26E0668F005F3081 /* QuizViewController.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		B4B2BD1626F6BC990076B808 /* Hat */ = {
+			isa = PBXGroup;
+			children = (
+				846525AE26E0668F005F3081 /* HatViewController.swift */,
+			);
+			path = Hat;
 			sourceTree = "<group>";
 		};
 		B4DED76226D3088D004468F1 = {
@@ -131,6 +268,8 @@
 				B4DED78426D30892004468F1 /* HogwartsAppTests */,
 				B4DED78F26D30892004468F1 /* HogwartsAppUITests */,
 				B4DED76C26D3088E004468F1 /* Products */,
+				4EC3F2EB7B8C39E489066E4F /* Pods */,
+				A41012D227BCC95A5144D3C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,11 +290,14 @@
 				B4DED7A026D308E3004468F1 /* Model */,
 				B4DED79F26D308DB004468F1 /* View */,
 				B4DED79E26D308D2004468F1 /* Controller */,
+				B4E9F7D226F7966000C0615A /* Helpers */,
+				B4DED7A126D308EB004468F1 /* Storyboards */,
 				B4DED76E26D3088E004468F1 /* AppDelegate.swift */,
 				B4DED77026D3088E004468F1 /* SceneDelegate.swift */,
 				B4DED77726D30891004468F1 /* Assets.xcassets */,
 				B4DED77926D30891004468F1 /* LaunchScreen.storyboard */,
 				B4DED77C26D30891004468F1 /* Info.plist */,
+				B426F0BE26F4172A003CC921 /* GoogleService-Info.plist */,
 			);
 			path = HogwartsApp;
 			sourceTree = "<group>";
@@ -181,7 +323,8 @@
 		B4DED79E26D308D2004468F1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				844D6E9626E06AEF00D5004F /* classeControl.swift */,
+				B4B2BD0F26F6B42D0076B808 /* BeastsController.swift */,
+				844D6E9626E06AEF00D5004F /* MainController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,19 +332,14 @@
 		B4DED79F26D308DB004468F1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				84371BB726E06FC700F8F8F1 /* DetailsAnimaisController.swift */,
-				84371BB326E06F3A00F8F8F1 /* AnimaisController.swift */,
-				846525AE26E0668F005F3081 /* hatViewController.swift */,
-				846525AC26E0668F005F3081 /* QuizViewController.swift */,
-				846525AD26E0668F005F3081 /* QuizViewControllerQuestions.swift */,
-				65BB589526DC4A8A00295754 /* PersonagensController.swift */,
-				84371BAF26E06ED300F8F8F1 /* PersonagensCell.xib */,
+				B4E9F7D526F7A26200C0615A /* User */,
+				B4B2BD1626F6BC990076B808 /* Hat */,
+				B4B2BD1526F6BC8A0076B808 /* Quiz */,
+				B4B2BD1426F6BC650076B808 /* Login e SignIn */,
+				B4B2BD1326F6BC4C0076B808 /* Home */,
+				B4B2BD1226F6BBC40076B808 /* Characters */,
+				B4B2BD1126F6BB990076B808 /* Beasts */,
 				B4DED77226D3088E004468F1 /* MainViewController.swift */,
-				B4DED7A226D31026004468F1 /* LoginViewController.swift */,
-				B4DED7A426D3103B004468F1 /* SignInViewController.swift */,
-				65509A1126D8A0CB0039C1CB /* HomeController.swift */,
-				65BB589726DC4E4100295754 /* DetailsPersonagensController.swift */,
-				B4DED7A126D308EB004468F1 /* Storyboards */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,11 +347,8 @@
 		B4DED7A026D308E3004468F1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				846525B826E06745005F3081 /* AnimaisCell.swift */,
-				846525B726E06745005F3081 /* AnimaisCell.xib */,
+				B4B2BD0B26F6B2890076B808 /* Beasts.swift */,
 				846525B526E066B7005F3081 /* Character.swift */,
-				6578B83A26DC4230000A1F23 /* PersonagensCell.swift */,
-				6578B83B26DC4230000A1F23 /* PersonagensCell.xib */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -221,12 +356,44 @@
 		B4DED7A126D308EB004468F1 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				846525BF26E068E2005F3081 /* PersonagensEAnimais.storyboard */,
+=======
+				846525A726E065E4005F3081 /* Hat.storyboard */,
+>>>>>>> 425ee022f90551ca19ece6bec37afe94b8d07e4c
 				846525A526E065E4005F3081 /* Quiz.storyboard */,
-				846525A626E065E4005F3081 /* User.storyboard */,
 				B4DED77426D3088E004468F1 /* Main.storyboard */,
+				B4B2BD1726F6C0E50076B808 /* Characters.storyboard */,
+				B4B2BD1926F6C0F70076B808 /* Beasts.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B4E9F7D226F7966000C0615A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B4E9F7D026F782BC00C0615A /* GradientView.swift */,
+				B4E9F7D326F7977F00C0615A /* ButtonGradient.swift */,
+				B446329C26F8175C0041781B /* defaultLinks.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B4E9F7D526F7A26200C0615A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B4E9F7D626F7A28000C0615A /* FavoritesViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		B4E9F7D826F7A32500C0615A /* Custom Button */ = {
+			isa = PBXGroup;
+			children = (
+				B4E9F7D926F7A36800C0615A /* ButtonCollectionCell.swift */,
+				B4E9F7DA26F7A36800C0615A /* ButtonCollectionCell.xib */,
+			);
+			path = "Custom Button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,9 +403,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DED79526D30892004468F1 /* Build configuration list for PBXNativeTarget "HogwartsApp" */;
 			buildPhases = (
+				2DBCAC81553474F9B44A91D4 /* [CP] Check Pods Manifest.lock */,
 				B4DED76726D3088E004468F1 /* Sources */,
 				B4DED76826D3088E004468F1 /* Frameworks */,
 				B4DED76926D3088E004468F1 /* Resources */,
+				46437039CB81267A9D077727 /* [CP] Embed Pods Frameworks */,
+				B426F0C026F419A1003CC921 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +423,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DED79826D30892004468F1 /* Build configuration list for PBXNativeTarget "HogwartsAppTests" */;
 			buildPhases = (
+				A035EE6BD33AD23EA0629D2A /* [CP] Check Pods Manifest.lock */,
 				B4DED77D26D30892004468F1 /* Sources */,
 				B4DED77E26D30892004468F1 /* Frameworks */,
 				B4DED77F26D30892004468F1 /* Resources */,
@@ -271,9 +442,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4DED79B26D30892004468F1 /* Build configuration list for PBXNativeTarget "HogwartsAppUITests" */;
 			buildPhases = (
+				C4C45263EF197870738279A3 /* [CP] Check Pods Manifest.lock */,
 				B4DED78826D30892004468F1 /* Sources */,
 				B4DED78926D30892004468F1 /* Frameworks */,
 				B4DED78A26D30892004468F1 /* Resources */,
+				B11C541E13D0FE1A16222600 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,13 +505,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846525A926E065E4005F3081 /* User.storyboard in Resources */,
-				846525C026E068E2005F3081 /* PersonagensEAnimais.storyboard in Resources */,
+				B4E9F7DC26F7A36800C0615A /* ButtonCollectionCell.xib in Resources */,
 				846525A826E065E4005F3081 /* Quiz.storyboard in Resources */,
+<<<<<<< HEAD
 				846525B926E06745005F3081 /* AnimaisCell.xib in Resources */,
 				84371BB026E06ED300F8F8F1 /* PersonagensCell.xib in Resources */,
+=======
+				846525AA26E065E4005F3081 /* Hat.storyboard in Resources */,
+				846525B926E06745005F3081 /* BeastTableCell.xib in Resources */,
+				B45745AE26F9599400562A32 /* Beasts.json in Resources */,
+				B4B2BD1826F6C0E50076B808 /* Characters.storyboard in Resources */,
+>>>>>>> 425ee022f90551ca19ece6bec37afe94b8d07e4c
 				B4094B1E26E035200036993E /* Personagens.json in Resources */,
+				B426F0BF26F4172A003CC921 /* GoogleService-Info.plist in Resources */,
 				B4DED77826D30891004468F1 /* Assets.xcassets in Resources */,
+				B4B2BD1A26F6C0F70076B808 /* Beasts.storyboard in Resources */,
 				B4DED77626D3088E004468F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,27 +540,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DBCAC81553474F9B44A91D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HogwartsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46437039CB81267A9D077727 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HogwartsApp/Pods-HogwartsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A035EE6BD33AD23EA0629D2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HogwartsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B11C541E13D0FE1A16222600 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HogwartsApp-HogwartsAppUITests/Pods-HogwartsApp-HogwartsAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HogwartsApp-HogwartsAppUITests/Pods-HogwartsApp-HogwartsAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HogwartsApp-HogwartsAppUITests/Pods-HogwartsApp-HogwartsAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B426F0C026F419A1003CC921 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		C4C45263EF197870738279A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HogwartsApp-HogwartsAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B4DED76726D3088E004468F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65BB589826DC4E4100295754 /* DetailsPersonagensController.swift in Sources */,
-				846525B226E0668F005F3081 /* QuizViewControllerQuestions.swift in Sources */,
-				844D6E9726E06AEF00D5004F /* classeControl.swift in Sources */,
+				65BB589826DC4E4100295754 /* CharactersDetailViewController.swift in Sources */,
+				B4E9F7D126F782BC00C0615A /* GradientView.swift in Sources */,
+				844D6E9726E06AEF00D5004F /* MainController.swift in Sources */,
+				B4B2BD0C26F6B2890076B808 /* Beasts.swift in Sources */,
 				B4DED7A326D31026004468F1 /* LoginViewController.swift in Sources */,
-				84371BB826E06FC700F8F8F1 /* DetailsAnimaisController.swift in Sources */,
+				B4E9F7D726F7A28000C0615A /* FavoritesViewController.swift in Sources */,
+				84371BB826E06FC700F8F8F1 /* BeastsDetailViewController.swift in Sources */,
 				B4DED77326D3088E004468F1 /* MainViewController.swift in Sources */,
 				6578B83C26DC4230000A1F23 /* PersonagensCell.swift in Sources */,
 				B4DED76F26D3088E004468F1 /* AppDelegate.swift in Sources */,
-				65509A1226D8A0CC0039C1CB /* HomeController.swift in Sources */,
+				65509A1226D8A0CC0039C1CB /* HomeViewController.swift in Sources */,
 				846525B126E0668F005F3081 /* QuizViewController.swift in Sources */,
 				B4DED7A526D3103B004468F1 /* SignInViewController.swift in Sources */,
-				846525B326E0668F005F3081 /* hatViewController.swift in Sources */,
+				B4E9F7DB26F7A36800C0615A /* ButtonCollectionCell.swift in Sources */,
+				B4B2BD1026F6B42D0076B808 /* BeastsController.swift in Sources */,
+				B4E9F7D426F7977F00C0615A /* ButtonGradient.swift in Sources */,
+				846525B326E0668F005F3081 /* HatViewController.swift in Sources */,
 				846525B626E066B7005F3081 /* Character.swift in Sources */,
-				65BB589626DC4A8A00295754 /* PersonagensController.swift in Sources */,
-				846525BA26E06745005F3081 /* AnimaisCell.swift in Sources */,
-				84371BB626E06F3A00F8F8F1 /* AnimaisController.swift in Sources */,
+				65BB589626DC4A8A00295754 /* CharactersViewController.swift in Sources */,
+				846525BA26E06745005F3081 /* BeastTableCell.swift in Sources */,
+				84371BB626E06F3A00F8F8F1 /* BeastsViewController.swift in Sources */,
+				B446329D26F8175C0041781B /* defaultLinks.swift in Sources */,
 				B4DED77126D3088E004468F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,10 +862,12 @@
 		};
 		B4DED79626D30892004468F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E389840291CE9709AA6FC8 /* Pods-HogwartsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HogwartsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -573,6 +884,7 @@
 		};
 		B4DED79726D30892004468F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294E861D68FB1445734ADE35 /* Pods-HogwartsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -593,6 +905,7 @@
 		};
 		B4DED79926D30892004468F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7F80FFDA375A2225417005 /* Pods-HogwartsAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -614,6 +927,7 @@
 		};
 		B4DED79A26D30892004468F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD07FE76702519EF406A28F /* Pods-HogwartsAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -635,6 +949,7 @@
 		};
 		B4DED79C26D30892004468F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BF656178DE9DD7F296A35A /* Pods-HogwartsApp-HogwartsAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -654,6 +969,7 @@
 		};
 		B4DED79D26D30892004468F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A346303595212451011BB6 /* Pods-HogwartsApp-HogwartsAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
